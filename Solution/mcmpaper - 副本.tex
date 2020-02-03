@@ -1,0 +1,592 @@
+\documentclass[a4paper, 11pt]{article}
+% ----- Loading the Package MCMthesis -----
+% -----           v 5.01-L            -----
+% `tcn' is short for `Team Control Number'.
+% You should fill your tcn after the equal sign following tcn.
+% The option `sheet' contorls weather the summary sheet
+% will appear.
+% The option `abstract' controls weather the abstract
+% will appear in the title-page.
+\usepackage[tcn = 1909174, sheet = false, abstract = false]{MCM}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{diagbox}
+\usepackage{color}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+% ----- Question Mark -----
+% ----- Fonts settings -----
+% You may need to install the font files, if it's needed.
+% Disable it, if you don't want this font.
+\usepackage{palatino}
+\usepackage{geometry}% 能设置页边距
+\usepackage{setspace}% 能设置行距
+% ----- Set the skip betweent the paragraphics -----
+\setlength\parskip{.5\baselineskip}
+% ----- The name of Abstract ------
+\providecommand{\abstractname}{\relax} % <-- Do not modify here.
+\renewcommand{\abstractname}{\Large Abstract} % <-- Modify here, if needed.
+% -----------------------------------
+% ===== The Title of Your Paper =====
+% -----------------------------------
+\newtheorem{law}{Law} %law 表明定理的名字，在输出中不显示，Law 表明定理的真实名字，在输出中显示 名称的替代？
+\newtheorem{jury}[law]{Jury} %表明以jury 为名称的定理与law 定理按同样顺序编号
+\newtheorem{mur}{Murphy}[section] %[section] 使加入的定理的编号与当前节链接
+\title{\Large Mini Project2 for ECE269A}
+% ---------------------------------------
+% ===== The Author(s) of Your Paper =====
+% ---------------------------------------
+\author{Yunhai Han \\
+A53307224\\
+y8han@eng.ucsd.edu}
+% ----------------
+% ===== Time =====
+% ----------------
+\date{}
+
+%首先 \begin{item} 是输出标号段落内容   \cite{} 能标号
+\begin{document}
+% Abstract should be put before `\maketitle'
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},
+}
+\newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=0.5cm}
+\begin{spacing}{0.7}
+\begin{abstract}
+This paper studies how to evacuate a large number of tourists in the Louvre safely and quickly. Considering the Louvre's architectural structure and tourist types, a multi-floor building evacuation model based on improved cellular automata theory was established. The queuing theory was used to obtain the shortest evacuation time. Then the gradient threshold was used to determine the opening time and number of the extra emergency exits, and finally the dynamic evacuation model is used to establish the evacuation model of tourists under risk.
+
+We have established a multi-floor building tourists evacuation model(Model 1) based on the cellular automata theory to solve the problem. Assuming that in the event of an emergency, the tourists use only four main entrances as escape exits, and the evacuation goal is for the last four tourists who choose the four different exits respectively to leave their chosen target exits at the same time. According to the shortest path principle, the evacuation time is 407.5s, and the results obtained by queuing theory optimization are the same for each exit.
+
+On the basis of the Model 1, we assume that the number of tourists near an exit exceeds a certain threshold, and the iteration is terminated. At this time, some extra emergency exits are required(Model 2). The number is determined according to the different thresholds at different iteration step. It is checked whether the number of tourists in the escape process near each exit is smaller than the threshold at the current iteration step, and the threshold is set to 250 at first. After the iterative solution is done, it is necessary to introduce an extra emergency exit after 22.5s.
+
+Considering that an emergency may occur in the Louvre, we have established a tourist evacuation model(Model 3) based on dynamic network equilibrium theory. Assuming that a usual exit and escape route in the Louvre is blocked, emergency personnel can open other emergency exits as escape exits. In this model, tourists can dynamically select the route with shorter evacuation time based on the real-time situation after the emergency occurs.
+
+The Louvre evacuation model we have established has a high sensitivity to the influence of factors such as building terrain, floor structure, personnel characteristics, number and location of exits, and emergency conditions on the evacuation time of tourists. According to the established model, we propose some feasible suggestions to the Louvre emergency management personnel, and the model can be applied to other large buildings.
+
+\textbf{Key words:} evacuation model,  cellular automata,  queuing theory,  threshold, dynamic network  equilibrium theory
+\end{abstract}
+\end{spacing}
+\restoregeometry
+
+\maketitle
+\pagestyle{empty}
+% Generate the Table of Contents, if it's needed.
+% \tableofcontents
+% \newpage
+\pagestyle{fancy}
+% The body of your paper
+
+%====================== 问题介绍====================================
+\section{part(a)}
+\subsection{Restatement of the problem}
+In part(a), I am required to computer the principal components(PCs) using the first 190 individuals' neutral expression image. Plot the singular values of the data matrix and justify your choice of principal components.
+
+\subsection{Results}
+Here, I don't copy the mathematics derivations from the given paper \textit{Face Recognition Using Eigenfaces} and just list the results the explanations.
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=8cm]{aver1.jpg}
+\caption{The average face} \label{fig:flowchart} %caption 即标题的意思
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface1.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface2.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface3.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface4.jpg}
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface5.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface6.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface7.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface8.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface9.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface10.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface11.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface12.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface13.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface14.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface15.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface16.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface17.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface18.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface19.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface20.jpg}
+\end{minipage}
+\caption{20 different eigenfaces} \label{fig:eigenface} %caption 即标题的意思
+\end{figure}
+From Figure \ref{fig:eigenface}, you can see there are 20 different eiganfaces and they are in the descent order with their eigenvalues, which means the first eigenface corresponds to the largest eigenvalue. It indeed there are 190 different eigenfaes because I am now using 190 individuals' neutral expression image. However, as the paper suggests, fewer number of eigenfaces with the largest eigenvalues contain enough information for the following reconstruction, I decide to choose the 20 largest eigenvalues and plot the eigenfaces. Because the eigenface(eigenvector) is the direction of the greatest variance and the corresponding eigenvalues is the variance along that direction. It allows me to use eigenface to describe the distribution of all the face images. Each individual face could be represented exactly in the terms of a linear combination of the eigenfaces. For the computational coefficiency, I choose the first 20 eigenfaces, if the error is beyond the threshold, I would change the number.
+
+\section{part(b)}
+\subsection{Restatement of the problem}
+In part(b), I am required to reconstruct one of 190 individuals' neutral expression image using different number of PCs. And as I vary the number of PCs, I need to plot the plot the mean squared error(MSE) of reconstruction versus the number of principal components to show the accuracy of reconstruction.
+ \subsection{Results}
+ I choose the $13^{th}$ individual's neutral expression.
+
+ In order to reconstruct the expression using different eigenfaces, first I need to project the mean-adjusted face image onto the subspace spanned by the eigenfaces. After this, I could obtain the weights for each eigenface and then, a linear combination of each eigenface with corresponding weight reconstruct the original face image.
+
+ First, I use 20 different eigenfaces and reconstruct the expression.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{13a.jpg}
+\caption{The original expression} \label{fig:13} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{face13.jpg}
+\caption{Reconstructed expression} \label{fig:eigenface13} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+ The left figure shows the original face expression from the dataset, and the right one shows the reconstructed face expression using 20 different eigenfaces.
+
+I also need to calculate the mean squared error(MSE), and its definition is:
+
+\begin{equation}\label{equ:face1}
+MSE=\frac{1}{N}\sum^n_{i=1}(Y_i-\hat{Y_i})^2
+\end{equation}
+
+In equation \ref{equ:face1}, $n$ represents the number of all elements in the image, which is euqal to the multiplication of the number of rows and number of columns. $Y_i$ represents each element in the original image and $\hat{Y_i}$ represents each element in the reconstructed image.
+
+In this case(20 different eigenfaces), the mean squared error is 1460.1 and from the two figures, I could tell the reconstructed image is similar with the original one. And that could prove the algorithm works!
+
+Then, I vary the number of PCs, and plot the MSE versus of the number of PCs.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part2_result.jpg}
+\caption{MSE versus the number of PCs} \label{fig:part2} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part2}, I find when the number is 7, the mean squared error is the smallest(1215). And the paper tells us that only 7 eigenfaces are enough for the reconstruction, which agrees with the results. The more eigenfaces(more than 7)for reconstruction, the larger mean squared error occurs, which is undesirable. Also, if the number of PCs is smaller than 7, the information are not enough to describe the distribution of these face images, which causes very large errors. When the number is 5, the error is the largest(4290).
+
+I put the reconstructed face images using 5 eigenfaces and 7 eigenfaces respectively.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part2_5.jpg}
+\caption{With 5 eigenfaces} \label{fig:5} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part2_7.jpg}
+\caption{With 7 eigenfaces} \label{fig:7} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+In figure \ref{fig:5}, you could see that the reconstructed face is different from the original one, which also proves the information in only 5 eigenfaces are not enough. In figure \ref{fig:7}, you could see that the reconstructed face is similar with another reconstructed face shown in figure \ref{fig:eigenface13}, which means the accuracy for reconstruction would not change a lot for any number of PCs larger than 7. Besides, figure \ref{fig:part2} also proves this conclusion because the MSE nearly remains the same when the number of PCs is larger than 7.
+
+\section{part(c)}
+\subsection{Restatement of the problem}
+In part(c), I am required to reconstruct one of 190 individuals' smiling expression image using different number of PCs. And as I vary the number of PCs, I need to plot the plot the mean squared error(MSE) of reconstruction versus the number of principal components to show the accuracy of reconstruction.
+\subsection{Results}
+The only thing I need to do is to change the face expression images for the creation of eigenfaces. With Matlab codes, I could handle this simply by changing the files' name.
+
+Here, I put all the results as in part(a) and part(b).
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=8cm]{aver2.jpg}
+\caption{The average face(similing)} \label{fig:flowchart} %caption 即标题的意思
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface1b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface2b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface3b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface4b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface5b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface6b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface7b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface8b.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface9b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface10b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface11b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface12b.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface13b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface14b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface15b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface16b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface17b.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface18b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface19b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface20b.jpg}
+\end{minipage}
+\caption{20 different eigenfaces(smiling)} \label{fig:eigenface} %caption 即标题的意思
+\end{figure}
+
+As in part(b), I need to reconstruct one of 190 individuals' smiling expression images. Here I also choose the $13^{th}$ individual's smiling expression.
+
+First, I use 20 different eigenfaces for reconstruction.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{13b.jpg}
+\caption{The original expression} \label{fig:13} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{face13b.jpg}
+\caption{Reconstructed expression} \label{fig:eigenface131} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+Then, I vary the number of PCs, and plot the MSE versus of the number of PCs.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part3_result.jpg}
+\caption{MSE versus the number of PCs} \label{fig:part3} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part3}, I find when the number is 24, the mean squared error is the smallest(978.8).However, it seems to me that it is more difficult for the reconstruction of individuals' smiling expression because the curve is not as ideal as it in figure \ref{fig:part2}. Also, if the number of PCs is smaller than 15, the information are not enough to describe the distribution of these face images, which causes very large errors. When the number is 2, the error is the largest(2601).
+
+I put the reconstructed face images using 2 eigenfaces and 24 eigenfaces respectively.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part3_small.jpg}
+\caption{With 2 eigenfaces} \label{fig:small} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part3_large.jpg}
+\caption{With 24 eigenfaces} \label{fig:large} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+In figure \ref{fig:small}, you could see that the reconstructed face is different from the original one, which also proves the information in only 2 eigenfaces are not enough. In figure \ref{fig:large}, you could see that the reconstructed face is similar with another reconstructed face shown in figure \ref{fig:eigenface131}, which means the accuracy for reconstruction would not change a lot for any number of PCs larger than 20. Besides, figure \ref{fig:part3} also proves this conclusion because the MSE nearly remains the same when the number of PCs is larger than 20.
+\section{part(d)}
+\subsection{Restatement of the problem}
+In part(d), I am required to reconstruct one of the other 10 individuals' neutral expression image using different number of PCs. And as I vary the number of PCs, I need to plot the mean squared error(MSE) of reconstruction versus the number of principal components to show the accuracy of reconstruction.
+\subsection{Results}
+I choose the '198a.jpg' and plot it here.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part4_result.jpg}
+\caption{MSE versus the number of PCs} \label{fig:part4} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part4}, you could see the MSE is smallest(963.9) when the number of PCs is about 20. And when the number is larger than 20, the MSE nearly remains the same.
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{198a.jpg}
+\caption{198a} \label{fig:small} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part4_2.jpg}
+\caption{2 eigenfaces} \label{fig:large4} %caption 即标题的意思
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part4_20.png}
+\caption{20 eigenfaces} \label{fig:large20} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+From figure \ref{fig:large4} and figure \ref{fig:large20}, I could tell that the two reconstructed faces look very similar. The could be validated by the errors shown in figure \ref{fig:part4} because the difference between each error is smaller than these in the previous parts. You can see that when the number is 2, the MSE is the largest(1278) and the smallest one is 963.9. So, in this case, we could even use 2 or 3 eigenfaces to reconstruct the original face expression.
+
+\section{part(e)}
+\subsection{Restatement of the problem}
+In part(e), I am required to use any other non-human image(e.g.,car image, resize and crop to the same size),and try to reconstruct it using all the PCs.
+\subsection{Results}
+I choose to use a car image and resize it.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{car1.jpg}
+\caption{A nice car} \label{fig:part4} %caption 即标题的意思
+\end{figure}
+
+The problem require me to use all the PCs, so I don't have to decide the number of PCs, I use all of them(190).
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part5_car.jpg}
+\caption{Reconstructed face from a car image} \label{fig:part5_car} %caption 即标题的意思
+\end{figure}
+
+In figure \ref{fig:part5_car}, it looks like a face(and it even looks like the lady in figure \ref{fig:small}). However, the mean squared error is 6710.5 and based on this, I could still make a decision that the original image contains no human face(In the paper, this situation is called 'distant from face space')
+
+In order to examine whether this conclusion is true or not, I use another non-human image(building).
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{building1.jpg}
+\caption{A tall building} \label{fig:part4} %caption 即标题的意思
+\end{figure}
+Also, I use all the PCs.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part5_building.jpg}
+\caption{Reconstructed face from a building image} \label{fig:part5_build} %caption 即标题的意思
+\end{figure}
+The mean square error is 3156.5, which is also mush larger then these in the previous parts.
+
+Moreover, in the paper, the author says that many images(most of them looking nothing like a face) will project onto a given pattern vector and this is not a problem for the system.
+
+From figure \ref{fig:part5_car} and figure \ref{fig:part5_build}, you can see that the two reconstructed face look similar. It agrees with what the author says in the paper since both of them are non-human images and thus, they project onto the same pattern vector.
+
+Hence, I could set a threshold to distinguish human face images and other non-human images. If just considering the chosen faces, the smallest MSE are 1215, 978.8, 963.9, so if I set the threshold to be 2000, it could distinguish the building and the car from human faces.
+
+In practice, the threshold should be obtained after many tests using different images and the selected threshold could distinguish the most images from human faces successfully. However, if it is not a linear classifier, there always exist a few images which could not be distinguished from human faces(the MSE are smaller than the selected threshold but it is a non-human image).
+
+\section{part(f)}
+\subsection{Restatement of the problem}
+In part(f), I am required to rotate one of the 190 individuals' neutral expression image with different degrees and try to reconstruct it using all PCs.
+\subsection{Results}
+As in part(b) and part(c), I choose the $13^{th}$ individual's neutral expression and rotate it with different degrees from $1^{\circ}$ to $60^{\circ}$.
+For each degree, I calculate the MSE and keep them in a vector for further analysis.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part6_sum.jpg}
+\caption{MSE versus degree} \label{fig:part6_sum} %caption 即标题的意思
+\end{figure}
+For every $5^{\circ}$, I output the reconstructed face image.
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_5.jpg}
+\caption{$5^{\circ}$} \label{fig:part6_5} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_10.jpg}
+\caption{$10^{\circ}$} \label{fig:part6_10} %caption 即标题的意思
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_15.jpg}
+\caption{$15^{\circ}$} \label{fig:part6_15} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_20.jpg}
+\caption{$20^{\circ}$} \label{fig:part6_20} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_25.jpg}
+\caption{$25^{\circ}$} \label{fig:part6_25} %caption 即标题的意思
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_30.jpg}
+\caption{$30^{\circ}$} \label{fig:part6_30} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_35.jpg}
+\caption{$35^{\circ}$} \label{fig:part6_35} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_40.jpg}
+\caption{$40^{\circ}$} \label{fig:part6_40} %caption 即标题的意思
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_45.jpg}
+\caption{$45^{\circ}$} \label{fig:part6_45} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_50.jpg}
+\caption{$50^{\circ}$} \label{fig:part6_50} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_55.jpg}
+\caption{$55^{\circ}$} \label{fig:part6_55} %caption 即标题的意思
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part6_60.jpg}
+\caption{$60^{\circ}$} \label{fig:part6_60} %caption 即标题的意思
+\end{minipage}
+\end{figure} 
+ From figure \ref{fig:part6_sum}, it's hard to tell the relationship between MSE and degrees(MSE increases at first and then decreases when the degree is larger than $10^{\circ}$). Because of this, MSE only is not enough for us to handle with the classification problem, since they would change with other reasons(rotation in this case). 
+ 
+ In the paper, the author also proposes another method for determining which face class provides the best description of an input face image and that is to find the face class k that minimizes the Euclidian distance between the weights vector $\Omega^{T}=[\omega_{1},\omega_{2}...\omega_{M}]$(M=190).
+\begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part6_class.jpg}
+\caption{face class error versus degree} \label{fig:part6_class} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part6_class}, you could see there is a great linear relationship between face class error and rotation degree. Based on this, I could design a linear classifier. For example, if the rotation degree is smaller than $10^{\circ}$, the face class error is smaller than $4.532*10^{13}$ and it could still be classified as a face expression. In order to examine whether it works or not, I input the car and building image again and calculate the class face error between them and human-face in '13a.jpg'.
+
+The errors are $3.498*10^{14}$ and $1.91*10^{14}$ and both are much larger than $4.532*10^{13}$, which means MSE and class face error together could successfully distinguish face images and non-human images.
+
+Finally, I try another face image '15a.jpg' and obtain the same results.
+\begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part6_sum2.png}
+\caption{MSE versus degree} \label{fig:part6_sum2} %caption 即标题的意思
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part6_class2.png}
+\caption{face class error versus degree} \label{fig:part6_class2} %caption 即标题的意思
+\end{figure}
+
+The two above figures shows the same trends how MSE and face class error change with degree increasing as before. And the face class errors for car and building images are $4.866*10^{14}$ and $3.407*10^{14}$ and they are much larger than $7.401*10^{13}$(rotation degree:$10^{\circ}$).
+
+I put all the Matlab codes here.
+\section*{Matlab Code}
+\lstinputlisting{ece269_project.m}
+\lstinputlisting{ece_269_project_A.m}
+\lstinputlisting{ece_269_project_B.m}
+\end{document}
+% ----- End of Document Body -----

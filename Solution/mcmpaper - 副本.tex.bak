@@ -1,0 +1,1094 @@
+\documentclass[a4paper, 11pt]{article}
+% ----- Loading the Package MCMthesis -----
+% -----           v 5.01-L            -----
+% `tcn' is short for `Team Control Number'.
+% You should fill your tcn after the equal sign following tcn.
+% The option `sheet' contorls weather the summary sheet
+% will appear.
+% The option `abstract' controls weather the abstract
+% will appear in the title-page.
+\usepackage[tcn = 1909174, sheet = false, abstract = false]{MCM}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{diagbox}
+% ----- Question Mark -----
+% ----- Fonts settings -----
+% You may need to install the font files, if it's needed.
+% Disable it, if you don't want this font.
+\usepackage{palatino}
+\usepackage{geometry}% 能设置页边距
+\usepackage{setspace}% 能设置行距
+% ----- Set the skip betweent the paragraphics -----
+\setlength\parskip{.5\baselineskip}
+% ----- The name of Abstract ------
+\providecommand{\abstractname}{\relax} % <-- Do not modify here.
+\renewcommand{\abstractname}{\Large Abstract} % <-- Modify here, if needed.
+% -----------------------------------
+% ===== The Title of Your Paper =====
+% -----------------------------------
+\newtheorem{law}{Law} %law 表明定理的名字，在输出中不显示，Law 表明定理的真实名字，在输出中显示 名称的替代？
+\newtheorem{jury}[law]{Jury} %表明以jury 为名称的定理与law 定理按同样顺序编号
+\newtheorem{mur}{Murphy}[section] %[section] 使加入的定理的编号与当前节链接
+\title{\Large Mini Project2 for ECE269A}
+% ---------------------------------------
+% ===== The Author(s) of Your Paper =====
+% ---------------------------------------
+\author{Yunhai Han }
+% ----------------
+% ===== Time =====
+% ----------------
+\date{}
+
+%首先 \begin{item} 是输出标号段落内容   \cite{} 能标号
+\begin{document}
+% Abstract should be put before `\maketitle'
+\newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=0.5cm}
+\begin{spacing}{0.7}
+\begin{abstract}
+This paper studies how to evacuate a large number of tourists in the Louvre safely and quickly. Considering the Louvre's architectural structure and tourist types, a multi-floor building evacuation model based on improved cellular automata theory was established. The queuing theory was used to obtain the shortest evacuation time. Then the gradient threshold was used to determine the opening time and number of the extra emergency exits, and finally the dynamic evacuation model is used to establish the evacuation model of tourists under risk.
+
+We have established a multi-floor building tourists evacuation model(Model 1) based on the cellular automata theory to solve the problem. Assuming that in the event of an emergency, the tourists use only four main entrances as escape exits, and the evacuation goal is for the last four tourists who choose the four different exits respectively to leave their chosen target exits at the same time. According to the shortest path principle, the evacuation time is 407.5s, and the results obtained by queuing theory optimization are the same for each exit.
+
+On the basis of the Model 1, we assume that the number of tourists near an exit exceeds a certain threshold, and the iteration is terminated. At this time, some extra emergency exits are required(Model 2). The number is determined according to the different thresholds at different iteration step. It is checked whether the number of tourists in the escape process near each exit is smaller than the threshold at the current iteration step, and the threshold is set to 250 at first. After the iterative solution is done, it is necessary to introduce an extra emergency exit after 22.5s.
+
+Considering that an emergency may occur in the Louvre, we have established a tourist evacuation model(Model 3) based on dynamic network equilibrium theory. Assuming that a usual exit and escape route in the Louvre is blocked, emergency personnel can open other emergency exits as escape exits. In this model, tourists can dynamically select the route with shorter evacuation time based on the real-time situation after the emergency occurs.
+
+The Louvre evacuation model we have established has a high sensitivity to the influence of factors such as building terrain, floor structure, personnel characteristics, number and location of exits, and emergency conditions on the evacuation time of tourists. According to the established model, we propose some feasible suggestions to the Louvre emergency management personnel, and the model can be applied to other large buildings.
+
+\textbf{Key words:} evacuation model,  cellular automata,  queuing theory,  threshold, dynamic network  equilibrium theory
+\end{abstract}
+\end{spacing}
+\restoregeometry
+
+\maketitle
+\pagestyle{empty}
+% Generate the Table of Contents, if it's needed.
+% \tableofcontents
+% \newpage
+\pagestyle{fancy}
+% The body of your paper
+
+%====================== 问题介绍====================================
+\section{part(a)}
+\subsection{Restatement of the problem}
+In part(a), I am required to computer the principal components(PCs) using the first 190 individuals' neutral expression image. Plot the singular values of the data matrix and justify your choice of principal components.
+
+\subsection{Results}
+Here, I don't copy the mathematics derivations from the given paper \textit{Face Recognition Using Eigenfaces} and just list the results the explanations.
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=8cm]{aver1.jpg}
+\caption{The average face} \label{fig:flowchart} %caption 即标题的意思
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface1.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface2.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface3.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface4.jpg}
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface5.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface6.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface7.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface8.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface9.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface10.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface11.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface12.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface13.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface14.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface15.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface16.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface17.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface18.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface19.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.2cm,width=4cm]{eigenface20.jpg}
+\end{minipage}
+\caption{20 different eigenfaces} \label{fig:eigenface} %caption 即标题的意思
+\end{figure}
+From Figure \ref{fig:eigenface}, you can see there are 20 different eiganfaces and they are in the descent order with their eigenvalues, which means the first eigenface corresponds to the largest eigenvalue. It indeed there are 190 different eigenfaes because I am now using 190 individuals' neutral expression image. However, as the paper suggests, fewer number of eigenfaces with the largest eigenvalues contain enough information for the following reconstruction, I decide to choose the 20 largest eigenvalues and plot the eigenfaces. Because the eigenface(eigenvector) is the direction of the greatest variance and the corresponding eigenvalues is the variance along that direction. It allows me to use eigenface to describe the distribution of all the face images. Each individual face could be represented exactly in the terms of a linear combination of the eigenfaces. For the computational coefficiency, I choose the first 20 eigenfaces, if the error is beyond the threshold, I would change the number.
+
+\section{part(b)}
+\subsection{Restatement of the problem}
+In part(b), I am required to reconstruct one of 190 individuals' neutral expression image using different number of PCs. And as I vary the number of PCs, I need to plot the plot the mean squared error(MSE) of reconstruction versus the number of principal components to show the accuracy of reconstruction.
+ \subsection{Results}
+ I choose the $13^{th}$ individual's neutral expression.
+
+ In order to reconstruct the expression using different eigenfaces, first I need to project the mean-adjusted face image onto the subspace spanned by the eigenfaces. After this, I could obtain the weights for each eigenface and then, a linear combination of each eigenface with corresponding weight reconstruct the original face image.
+
+ First, I use 20 different eigenfaces and reconstruct the expression.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{13a.jpg}
+\caption{The original expression} \label{fig:13} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{face13.jpg}
+\caption{Reconstructed expression} \label{fig:eigenface13} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+ The left figure shows the original face expression from the dataset, and the right one shows the reconstructed face expression using 20 different eigenfaces.
+
+I also need to calculate the mean squared error(MSE), and its definition is:
+
+\begin{equation}\label{equ:face1}
+MSE=\frac{1}{N}\sum^n_{i=1}(Y_i-\hat{Y_i})^2
+\end{equation}
+
+In equation \ref{equ:face1}, $n$ represents the number of all elements in the image, which is euqal to the multiplication of the number of rows and number of columns. $Y_i$ represents each element in the original image and $\hat{Y_i}$ represents each element in the reconstructed image.
+
+In this case(20 different eigenfaces), the mean squared error is 1460.1 and from the two figures, I could tell the reconstructed image is similar with the original one. And that could prove the algorithm works!
+
+Then, I vary the number of PCs, and plot the MSE versus of the number of PCs.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part2_result.jpg}
+\caption{MSE versus the number of PCs} \label{fig:part2} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part2}, I find when the number is 7, the mean squared error is the smallest(1215). And the paper tells us that only 7 eigenfaces are enough for the reconstruction, which agrees with the results. The more eigenfaces(more than 7)for reconstruction, the larger mean squared error occurs, which is undesirable. Also, if the number of PCs is smaller than 7, the information are not enough to describe the distribution of these face images, which causes very large errors. When the number is 5, the error is the largest(4290).
+
+I put the reconstructed face images using 5 eigenfaces and 7 eigenfaces respectively.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part2_5.jpg}
+\caption{With 5 eigenfaces} \label{fig:5} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part2_7.jpg}
+\caption{With 7 eigenfaces} \label{fig:7} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+In figure \ref{fig:5}, you could see that the reconstructed face is different from the original one, which also proves the information in only 5 eigenfaces are not enough. In figure \ref{fig:7}, you could see that the reconstructed face is similar with another reconstructed face shown in figure \ref{fig:eigenface13}, which means the accuracy for reconstruction would not change a lot for any number of PCs larger than 7. Besides, figure \ref{fig:part2} also proves this conclusion because the MSE nearly remains the same when the number of PCs is larger than 7.
+
+\section{part(c)}
+\subsection{Restatement of the problem}
+In part(c), I am required to reconstruct one of 190 individuals' smiling expression image using different number of PCs. And as I vary the number of PCs, I need to plot the plot the mean squared error(MSE) of reconstruction versus the number of principal components to show the accuracy of reconstruction.
+\subsection{Results}
+The only thing I need to do is to change the face expression images for the creation of eigenfaces. With Matlab codes, I could handle this simply by changing the files' name.
+
+Here, I put all the results as in part(a) and part(b).
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=8cm]{aver2.jpg}
+\caption{The average face(similing)} \label{fig:flowchart} %caption 即标题的意思
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface1b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface2b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface3b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface4b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface5b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface6b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface7b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface8b.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface9b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface10b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface11b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface12b.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface13b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface14b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface15b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface16b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface17b.jpg}
+\end{minipage}
+\centering
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface18b.jpg}
+\end{minipage}%
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface19b.jpg}
+\end{minipage}
+\begin{minipage}[c]{0.20\textwidth}
+\centering
+\includegraphics[height=3.1cm,width=4cm]{eigenface20b.jpg}
+\end{minipage}
+\caption{20 different eigenfaces(smiling)} \label{fig:eigenface} %caption 即标题的意思
+\end{figure}
+
+As in part(b), I need to reconstruct one of 190 individuals' smiling expression images. Here I also choose the $13^{th}$ individual's smiling expression.
+
+First, I use 20 different eigenfaces for reconstruction.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{13b.jpg}
+\caption{The original expression} \label{fig:13} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{face13b.jpg}
+\caption{Reconstructed expression} \label{fig:eigenface131} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+Then, I vary the number of PCs, and plot the MSE versus of the number of PCs.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part3_result.jpg}
+\caption{MSE versus the number of PCs} \label{fig:part3} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part3}, I find when the number is 24, the mean squared error is the smallest(978.8).However, it seems to me that it is more difficult for the reconstruction of individuals' smiling expression because the curve is not as ideal as it in figure \ref{fig:part2}. Also, if the number of PCs is smaller than 15, the information are not enough to describe the distribution of these face images, which causes very large errors. When the number is 2, the error is the largest(2601).
+
+I put the reconstructed face images using 2 eigenfaces and 24 eigenfaces respectively.
+ \begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part3_small.jpg}
+\caption{With 2 eigenfaces} \label{fig:small} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.50\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part3_large.jpg}
+\caption{With 24 eigenfaces} \label{fig:large} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+In figure \ref{fig:small}, you could see that the reconstructed face is different from the original one, which also proves the information in only 2 eigenfaces are not enough. In figure \ref{fig:large}, you could see that the reconstructed face is similar with another reconstructed face shown in figure \ref{fig:eigenface131}, which means the accuracy for reconstruction would not change a lot for any number of PCs larger than 20. Besides, figure \ref{fig:part3} also proves this conclusion because the MSE nearly remains the same when the number of PCs is larger than 20.
+\section{part(d)}
+\subsection{Restatement of the problem}
+In part(d), I am required to reconstruct one of the other 10 individuals' neutral expression image using different number of PCs. And as I vary the number of PCs, I need to plot the mean squared error(MSE) of reconstruction versus the number of principal components to show the accuracy of reconstruction.
+\subsection{Results}
+I choose the '198a.jpg' and plot it here.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part4_result.jpg}
+\caption{MSE versus the number of PCs} \label{fig:part4} %caption 即标题的意思
+\end{figure}
+
+From figure \ref{fig:part4}, you could see the MSE is smallest(963.9) when the number of PCs is about 20. And when the number is larger than 20, the MSE nearly remains the same.
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{198a.jpg}
+\caption{198a} \label{fig:small} %caption 即标题的意思
+\end{minipage}%
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part4_2.jpg}
+\caption{2 eigenfaces} \label{fig:large4} %caption 即标题的意思
+\end{minipage}
+\begin{minipage}[c]{0.3\textwidth}
+\centering
+\includegraphics[height=3.5cm,width=4cm]{part4_20.png}
+\caption{20 eigenfaces} \label{fig:large20} %caption 即标题的意思
+\end{minipage}
+\end{figure}
+
+From figure \ref{fig:large4} and figure \ref{fig:large20}, I could tell that the two reconstructed faces look very similar. The could be validated by the errors shown in figure \ref{fig:part4} because the difference between each error is smaller than these in the previous parts. You can see that when the number is 2, the MSE is the largest(1278) and the smallest one is 963.9. So, in this case, we could even use 2 or 3 eigenfaces to reconstruct the original face expression.
+
+\section{part(e)}
+\subsection{Restatement of the problem}
+In part(e), I am required to use any other non-human image(e.g.,car image, resize and crop to the same size),and try to reconstruct it using all the PCs.
+\subsection{Results}
+I choose to use a car image and resize it.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{car1.jpg}
+\caption{A nice car} \label{fig:part4} %caption 即标题的意思
+\end{figure}
+
+The problem require me to use all the PCs, so I don't have to decide the number of PCs, I use all of them(190).
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part5_car.jpg}
+\caption{Reconstructed face from a car image} \label{fig:part5_car} %caption 即标题的意思
+\end{figure}
+
+In figure \ref{fig:part5_car}, it looks like a face(and it even looks like the lady in figure \ref{fig:small}). However, the mean squared error is 6710.5 and based on this, I could still make a decision that the original image contains no human face(In the paper, this situation is called 'distant from face space')
+
+In order to examine whether this conclusion is true or not, I use another non-human image(building).
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{building1.jpg}
+\caption{A tall building} \label{fig:part4} %caption 即标题的意思
+\end{figure}
+Also, I use all the PCs.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part5_building.jpg}
+\caption{Reconstructed face from a building image} \label{fig:part5_build} %caption 即标题的意思
+\end{figure}
+The mean square error is 3156.5, which is also mush larger then these in the previous parts.
+
+Moreover, in the paper, the author says that many images(most of them looking nothing like a face) will project onto a given pattern vector and this is not a problem for the system.
+
+From figure \ref{fig:part5_car} and figure \ref{fig:part5_build}, you can see that the two reconstructed face look similar. It agrees with what the author says in the paper since both of them are non-human images and thus, they project onto the same pattern vector.
+
+Hence, I could set a threshold to distinguish human face images and other non-human images. If just considering the chosen faces, the smallest MSE are 1215, 978.8, 963.9, so if I set the threshold to be 2000, it could distinguish the building and the car from human faces.
+
+In practice, the threshold should be obtained after many tests using different images and the selected threshold could distinguish the most images from human faces successfully. However, if it is not a linear classifier, there always exist a few images which could not be distinguished from human faces(the MSE are smaller than the selected threshold but it is a non-human image).
+
+\section{part(f)}
+\subsection{Restatement of the problem}
+In part(f), I am required to rotate one of the 190 individuals' neutral expression image with different degrees and try to reconstruct it using all PCs.
+\subsection{Results}
+As in part(b) and part(c), I choose the $13^{th}$ individual's neutral expression and rotate it with different degrees from $1^{\circ}$ to $60^{\circ}$.
+For each degree, I calculate the MSE for further analysis.
+ \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part6_sum.jpg}
+\caption{MSE versus degree} \label{fig:part6_sum} %caption 即标题的意思
+\end{figure}
+ 
+ From figure \ref{fig:part6_sum}, it's hard to tell the relationship between MSE and degrees(MSE increases at first and then decreases when the degree is larger than $10^{\circ}$). Because of this, MSE only is not enough for us to handle with the classification problem, since they would change with other reasons(rotation in this case). 
+ 
+ In the paper, the author also proposes another method for determining which face class provides the best description of an input face image which is to find the face class k that minimizes the Euclidian distance between the weights vector $\Omega^{T}=[\omega_{1},\omega_{2}...\omega_{M}]$(M=190).
+  \begin{figure}[H]
+\centering
+\includegraphics[angle=0,height=5.5cm,width=7cm]{part6_class.jpg}
+\caption{face class error versus degree} \label{fig:part6_sum} %caption 即标题的意思
+\end{figure}
+\begin{itemize}
+\item From the pyramid entrance to the Louvre, tourists need to reach the -2th floor through the spiral ladder. Therefore, if a tourist uses the pyramid entrance as an escape exit, he can only use the 2-layer spiral ladder to return to the 0th floor.
+\item From the entrance of the Lions Gate to the Louvre, tourists need to reach the 1st floor except for a small number of tourists on 0th floor. Therefore, if the tourists of the non-zero floor want to use the entrance of the Lions Gate as an escape exit, they can only return to the 0th floor through the 1st floor staircase.
+\item The other two main entrances to the Louvre are not restricted by stairs, hence tourists on any floor can arrive directly at the two exits without any further consideration in our model.
+\end{itemize}
+
+\section{Assumptions and Justifications}
+\begin{itemize}
+\item[1.] \textbf{The impact of accidental factors such as tourist collision, returning back on the same way and winding on the evacuation is not considered.} The time for the tourists to escape from the Louvre can be solved by the shortest path principle, and this process will not be interrupted since tourists are well able to avoid such events.
+\item[2.] \textbf{Tourists on different floors choose only stairs instead of elevators when they escape.} Because in fact, in the event of an emergency, tourists will tend to spend the shortest time reaching the exit, and there is a certain risk in using the elevator.
+\item[3.] \textbf{The tourists on the -2nd floor of the Louvre are not considered.} Because there are no exhibits on the -2nd floor, tourists will not stay there for a long time, and they can escape from the subway tunnel.
+\item[4.] \textbf{Most places in the Louvre have posted emergency escape route, or each tourist have been given a visiting manual containing a emergency escape route.} This will allow the tourist to move toward the target exit in a planned route, thereby enabling the application of the shortest path principle.
+\item[5.] \textbf{When a tourist uses the stairs to go up or go down to a certain floor, the relative position in space does not change.} In most cases, stairs are constructed vertically, which means tourists could not change their position on different floors.
+\item[6.] \textbf{Regardless of the occurrence of an emergency and its effects, it is simply given as an external assumption.}  Because our research focuses on the number of different exits and the evacuation strategy of tourists in emergency when this emergency has already occurred.
+\end{itemize}
+
+ U nder the above assumptions and justifications, we can set out
+to construct our model (show our approach in detail).
+%============================= 问题分析==========================================
+\section{Symbol Descriptions}
+\begin{table}[H]
+\centering
+\renewcommand\arraystretch{1.2}
+\caption{symbol descriptions}
+{\begin{tabular}{p{200pt}<{\centering}p{250pt}<{\centering}} % 第一列宽度120pt，第二列200pt 第一列输出居中<{\centering}
+\toprule
+Symbol & \hspace{0.5cm}Symbol Description\\
+\hline
+$U$ & \hspace{0.5cm} Total number of tourists in the Louvre\\
+\hline
+$t$ & \hspace{0.5cm}Shortest evacuation time\\
+\hline
+$W$ & \hspace{0.5cm} Size of system\\
+\hline
+$V_{max}$ & \hspace{0.5cm} Maximum speed of cell movement\\
+\hline
+$S_{xy}$ & \hspace{0.5cm} Shortest distance from the cell to the target exit\\
+\hline
+$E_{ij}$ & \hspace{0.5cm} Dynamic space parameter matrix element \\ \hline
+$t_{walk}$ & \hspace{0.5cm} Time for tourists to reach each exit\\ \hline
+$t_{queue}$ & \hspace{0.5cm} Time for tourists to queue up at the target exit\\ \hline
+$t_{RealTimeToQueue}$ & \hspace{0.5cm} Actual time for tourists to queue up\\ \hline
+$N_{x}$ & \hspace{0.5cm} Number of tourists at time $t_{x}$\\ \hline
+$Y_{1}$ & \hspace{0.5cm} Threshold at time $t_{x}$\\ \hline
+$C_{p}^{i,d}(k)$ & \hspace{0.5cm} Shortest time for tourist $i$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+\begin{table}[H]
+\centering
+\renewcommand\arraystretch{1.2}
+{\begin{tabular}{p{200pt}<{\centering}p{250pt}<{\centering}} % 第一列宽度120pt，第二列200pt 第一列输出居中<{\centering}
+\toprule
+$\pi_{p}(k)$ & \hspace{0.5cm} Shortest time for tourists in route $p$ at time $k$\\ \hline
+$n_{p}^{i,d}$ & \hspace{0.5cm} Number of tourists in route $p$ at time $k$\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\section{The establishment and solution of models  }
+\mbox{}\phantom{mm}The tourists evacuation model simulates the behavior of a specific group\cite{3} of people in a specific place or in a specific environment. Therefore, in this paper, for the evacuation of tourists in the Louvre, it is proposed to use the place where evacuation occurs, the evacuation personnel and the emergency conditions that may occur during evacuation to form the basic framework of the model.
+
+The following flowchart shows the procedures of our model.
+Specifically, the elements that describe the nature of the various components of the model are:
+\begin{itemize}
+\item[1.]Evacuation sites: including the size and spatial pattern of the Louvre; the location, size of obstacles; and the location of evacuation exits.
+\item[2.]Evacuation personnel: including the number of tourists who need to be evacuated, emergency personnel, individual location, individual characteristics (individual, group, and disabled).
+\item[3.]Emergency conditions at evacuation: including potential bottlenecks and different types of risks that may occur.
+\end{itemize}
+\subsection{Model 1}
+\mbox{}\phantom{mm}In task 1, we assume that in the event of an emergency, tourists use only four main entrances, such as the Pyramid Entrance, as escape exits and take into account the Louvre's floor plain structure, tourists characteristics and waiting times to propose a plan to evacuate all tourists and the time required.
+\subsubsection{Establishment}
+\mbox{}\phantom{mm}The ultimate goal of the model is to quickly and successfully evacuate tourists inside Louvre, that is, to minimize the time from the emergency to the time when the last tourist leaves the Louvre. We first established a multi-layer evacuation model based on cellular automata theory. The evacuation model obtained the tourist escape plan using the shortest path principle, and then optimized the plan based on the queuing theory, and iteratively calculated the evacuating time until tourists  simultaneously leave the Louvre through the four exits.
+
+1.Determination of evacuation targets
+
+The title states that the evacuation goal is to allow all tourists in the Louvre to leave the building as safely as possible in order to empty the Louvre as soon as possible. We consider that the expected evacuation goal can be achieved by ensuring that the time taken by the last tourist to leave the Louvre is the shortest.If and only if the tourists who escape from the four main entrances leave the target exits selected at the same time. There will be no situation where the tourists who choose an exit all escape and this exit is not used, the total utilization efficiency of this exit is the highest, and the evacuation time is the shortest. Below we build a mathematical model to describe the rationality of the evacuation target.
+
+Suppose U is the total number of tourists in the Louvre at the time of emergency, x is the total number of tourists allowed to escape from all exits per unit time, and $x_{i}(i=1,2,3,4)$ is the number of tourists allowed to escape from the $ith$ exit per unit time, then there are:$x=\sum_{i=1}^{4}x_{i}$. When all tourists who escape from the four entrances leave at the same time, the time taken is:
+
+\begin{equation}\label{equ:people}
+t=\frac{U}{x}
+\end{equation}
+
+The process of using the counter-evidence method to prove that $t$ is the shortest time for evacuation is as follows:
+
+It is considered that $t$ is not the shortest time used by the last tourist to leave the Louvre when an emergency occurs. At this time, there exists an evacuation situation such that $t_{i}<t$, and $t_{i}(i=1,2,3,4)$is the time taken to select the tourists who escape from the $i$th exit. The total number of tourists to the Louvre is:
+
+\begin{equation}\label{equ:people1}
+U_1=\sum^4_{i=1}(x_i*t_i)
+\end{equation}
+
+Notice that:
+
+\begin{equation}\label{equ:people2}
+U=\sum^4_{i=1}(x_i*t)
+\end{equation}
+
+Comparing equations \eqref{equ:people1} and \eqref{equ:people2}, we can see that $U_1<U$, but in theory the total number of tourists in the Louvre remains unchanged, so the assumption is not true, so $t$ is the shortest time for evacuation.
+
+2.Determination of the size of the Louvre
+
+In order to determine the approximate size of the main buildings of the Louvre, we found the satellite image of the Louvre on the Google Maps website, and obtained the approximate position and size data of the Louvre by scaling, as shown in Figure \ref{fig:Louvre}. Then the Louvre floor image was imported into MATLAB software for simulation analysis.
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=4.5cm,width=6cm]{Louvre_size.jpg}
+\caption{Satellite image of the Louvre} \label{fig:Louvre} %caption 即标题的意思
+\end{figure}
+
+The length of the boundary of the Louvre in the map is measured, and then the actual length can be found from the measured length corresponding to the standard scale. For example, the measured length of the right wing of the Louvre in the map is $x_{y}=26.2cm$, the measured length of the scale is $x_c=1.1cm$, and the actual length is $x_cr=20m$ . The actual distance of the right wing of the Louvre is:
+
+\begin{displaymath}
+x_{yr}=x_y*\frac{x_{cr}}{x_c}=476.36cm
+\end{displaymath}
+
+The title indicates that the length of right wing of the Louvre is 480$m$, and the error between it and our result if only 0.76\%, which can be considered to meet the accuracy requirements.
+
+3.Cellular automata theory
+
+The cellular automata realizes the analysis of the overall macroscopic behavior characteristics of the system under the condition of interaction between individuals by simulating or defining the microscopic behavior characteristics of simple individuals in the system. In this paper, the two basic parameters (direction parameters and grid parameters) of the dynamic parameter model\cite{4} are used to simulate the evacuation flow of people in evacuation.
+
+The tourists evacuation simulation model is built in a two-dimensional discrete cellular grid system of size $(W+2)*(W+2)$, that is, the moving area of the tourist  evacuation space is divided into $W*W$ discrete cells of equal size. $W$ is the size of the system; boundary cells of the system is occupied with obstacles to form a room wall and also a space cell on the wall is left as a exit for tourists to left the room. Within the system, each space location can only accommodate one tourist; each tourist can only occupy one cell space. The tourist simulation process is also discretized into equal time steps. Within each discrete time step, the tourist can only move across one cell. Within each time step, the tourist either stops waiting or moves at maximum speed $V_{max} = 1$ cell. Tourists can not pass through the wall but can only leave the system through the room exit. Evacuated tourists will not enter the system after leaving the system. The simulation model is shown in Figure \ref{fig:grid}.
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=5.5cm,width=6cm]{grid.jpg}
+\caption{Simulation model of tourists flow} \label{fig:grid} %caption 即标题的意思
+\end{figure}
+
+Within each discrete time step of the model evolution, the tourist can wait or move in eight directions around himself. The moving field is shown in Figure \ref{fig:move}. When selecting the position of the next time step, the tourist will judge the mobile benefit for each location in the mobile domain, and select the location with the largest mobile benefit as the target location for the next time step. Tourists can also choose the location that is being occupied by other tourists as the target location for their next time step. Therefore, in the process of tourist evacuation, there is a possibility of exchanging positions between tourists. Within the same time step, if and only if two tourists select each other's current position as the target position of their next time step, Tourists will exchange their positions in the next time, and the exchange of positions between the two will happen and succeed.
+
+The mobile benefit of each cell location in the mobile domain is obtained by summing two basic parameters of the dynamic parameter model: direction-parameter and empty-parameter.The direction parameter describes how close the next optional position is to the tourist target position; the empty parameter reflects whether the next optional position is occupied by other tourists.The model assumes that tourists will judge and evaluate the mobile benefit of each optional location during the evacuation process and before making a mobile selection.
+
+When calculating the direction parameter, first calculate the Euclidean distance of the cell position from the safety exit, and specify that the distance in the safety exit is zero.When the tourist evacuation room has multiple safety exits, the distance from the nearest safety exit is taken as the shortest distance from the cell position to the safety exit;when the width of the safety exit is greater than a cell space, the distance from the nearest cell in the safety exit is taken as the shortest distance from the cell exit to the safe exit. The shortest distance from the cell position to the safe exit is calculated by equation \ref{equ:distance}.
+
+\begin{equation}\label{equ:distance}
+S_{xy}=\left\{ \begin{array}{ll}
+\min_m(\min_n(\sqrt{(x-x^m_n)^2+(y-y_n^m)^2})) & \textrm{Cell$(x,y)$ is free}\\
+M & \textrm{Cell$(x,y)$ is occupied by wall}\\
+\end{array} \right. % \right. 隐藏右边的括号 点(.) 不可少  \right\} 可在右侧生成括号
+\end{equation}
+
+The value of the grid dynamic parameter matrix element is:
+
+\begin{equation}
+E_{ij}=\left\{ \begin{array}{cl}
+1 & \textrm{Empty cell position}\\
+0 & \textrm{Central cell position}\\
+-1 & \textrm{Cell occupied by other tourists}\\
+\end{array} \right. % \right. 隐藏右边的括号 点(.) 不可少  \right\} 可在右侧生成括号
+\end{equation}
+
+The values of the two dynamic parameters are based on the shortest distance of the cell from the safe exit in the mobile field and the change of the evacuation environment around the tourist.
+
+The model adopts a parallel update mechanism. In the evolution rule of the simulation model, each tourist must abide by the following tourist movement rules:
+\begin{itemize}
+\item[(1)] Within each time step $t$, a tourist can only move the length of one cell. The tourist has nine optional positions as his next target position, that is, tourists can choose to wait in their place or move to eight locations around themselves as shown in Figure \ref{fig:move}.
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=5cm]{move.jpg}
+\caption{Tourist movement domain}\label{fig:move}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=5cm]{revenue.jpg}
+\caption{Corresponding mobile benefit matrix} \label{fig:benefit}
+\end{minipage}
+\end{figure}
+\item[(2)]Nine alternative locations in the tourist mobile field have their own dynamic parameters and mobile benefit, as shown in Figure \ref{fig:benefit}. The mobile benefit is the sum of the two dynamic parameter values of the direction parameter and the empty parameter. The calculation equation is:
+
+\begin{equation} \label{equ:P}
+P_{ij}=D_{ij}+E{ij}
+\end{equation}
+
+\mbox{}\phantom{mm}In equation \ref{equ:P}, $P_{ij}$ is the mobile benefit; $D_{ij}$ is the direction parameter; $E_{ij}$ is the grid parameter.
+
+\item[(3)]When selecting the next target position, the evacuated tourist first calculates and judges the mobile benefit of the nine selected positions in his mobile field, and selects the position with the largest benefit as his next target position.
+
+\item[(4)]When the evacuated tourist selects the next target position, when there are multiple cell positions with the maximum mobile benefit in the mobile domain, the tourist randomly selects one cell in these cells with the same probability as their next target location.
+
+\item[(5)]In the process of model evolution, because there are multiple tourists competing for an idle position at the same time, there will be position conflicts between tourists. When there is a position conflict between tourists, the system will randomly select a tourist to occupy the position with equal probability. The selected tourist will move to the target position in the next step, and the unselected tourist will remain in his former place.
+\item[(6)]During the evolution of the model, the tourists exchange their positions only when the two tourists simultaneously select the current position of each other as their next target position. When the requirements for the location exchange between tourists are satisfied, the location exchange will be successfully completed; but when the requirements for the position exchange between tourists are not satisfied, the tourist will keep the original position and do not move.
+\item[(7)]When the evacuated tourist moves into the safe exit, the tourist will be removed from the system within the next time step.
+\item[(8)]When all evacuated tourists in the evacuation room are removed from the system, no tourists are present in the room and the simulation process ends.
+\end{itemize}
+
+4.Optimization and improvement of cellular automata theory
+\begin{itemize}
+\item[(1)] Shape irregularities
+
+\mbox{}\phantom{mm}Many traditional cellular automata evacuation models assume that the building's plane space is a regular shape such as a rectangle. At this time, there is no obstacle between the tourist and the exit. The Euclidean distance algorithm can be used to solve the shortest time for the tourist to reach the exit. However, observing the Louvre's floor can reveal that the ground is irregular, so we need to improve it. When the tourists will encounter walls or obstacles according to the shortest path principle and cannot pass through them, the direction of movement of the tourists is changed by $90^{\circ}$ and still moves in the direction of the target exit. A schematic diagram of the tourist touching the wall to change the direction of travel is shown in Figure \ref{fig:turining}.
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=5.5cm,width=5.5cm]{turning.jpg}
+\caption{Schematic diagram of the direction of a tourist} \label{fig:turining} %caption 即标题的意思
+\end{figure}
+
+\mbox{}\phantom{mm}The gray shaded part in Figure \ref{fig:turining} indicates the wall, the white circle indicates a tourist, and the points A and B respectively indicate the center position of the different intersections, that is, the inflection point. It can be seen that the line between the tourist's initial position and the exit is cut off by the wall. The Euclidean distance algorithm no longer applies. It can be seen from the figure that if the tourist wants to reach the exit, he can only move to the right to point A, then move up to point B. There is no obstacle between point B and the exit. The shortest path principle can be applied. A single goal is translated into multiple targets that are related to each other, and the goals that are ultimately achieved are the same.
+
+\mbox{}\phantom{mm}We still determine the each tourist's moving route according to the principle of mobile benefit maximization in the cellular automata theory. If it hits the wall, it will rotate by $90^{\circ}$ according to a certain principle until it reaches point A, and the tourist is considered to have completed the first target. Then the tourist continue to move to point B, which is the second goal, and finally reach the target exit. The principle can be applied in other irregular shapes.
+
+\item[(2)]Difference in tourist types
+
+\mbox{}\phantom{mm}According to different tourists characteristics, all the tourists in the Louvre are divided into three types: individual tourists, group tourists and disabled tourists. The moving speed and boundary constraints of different types of tourists are also different, so the analysis of cellular automata theory need to be improved. Individual tourists move the length of one cell in a time step, and the disabled tourists move the length of one cell in two time steps, and the group tourists move at the same speed as Individual tourists. The difference is the constraints and restrictions in the movement procedure, as shown in Figure \ref{fig:group} for the movement field of group tourists.
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=5.5cm,width=5.5cm]{group.jpg}
+\caption{Schematic diagram of group tourists movement field} \label{fig:group} %caption 即标题的意思
+\end{figure}
+
+\mbox{}\phantom{mm}In the Figure \ref{fig:group}, the $3*3$ grid group is composed of a tourist at the center and 8 tourists around. The moving direction of the center tourist is the moving direction of the group tourists. If this group encounters walls or obstacles during the movement, The surrounding 8 tourists are also taken into account.
+\end{itemize}
+
+5.Multi-storey building tourists evacuation model
+
+Multi-storey building evacuation is different from the general multi-source evacuation model\cite{5}. High-floor points must pass through certain nodes and sections of the lower layer to reach the safety exit. According to the topic and the plane guide map, the Louvre is a five-story building, two of which are underground. Therefore, it is necessary to consider how to properly group tourists on each floor to be evacuated and choose the appropriate path for evacuation. By studying the plan of the Louvre we found:
+
+\begin{itemize}
+\item[(1)]Tourists who enter the Louvre from the entrance of the Pyramid can only reach the $-2th$ floor through the spiral ladder. Therefore, if the tourist uses the entrance of the pyramid as an escape exit, he can only use the spiral ladder of $-2th$ to return to the $0th$ floor.
+\item[(2)]Tourists who enter the Louvre from the entrance of the Lions Gate can only reach the $1st$ floor except for the exhibition hall on the $0th$ floor. Therefore, if the tourists of the non-zero floor use the entrance to the Lions Gate as an escape exit, they can only move to the $0th$ floor through the $1st$ floor staircase in a certain place.
+\item[(3)]The other two main entrances of the Louvre are not restricted by stairs, that is, tourists can reach there directly from their original position without any further considerations.
+\end{itemize}
+
+Based on this, we introduced the concept of super-end point, each floor has some stairs as the evacuation exit of each floor, and there is no upper limit for the flow of each stair exit, which can be transformed into the evacuation problem of multi-source point and single end point. Because the tourist evacuation movement always has a direction, the tourist evacuation destination is the staircase exit of each floor, and the moving direction is the direction pointing to the safety exit. When the tourist evacuates, choose the stair position closely to the safety exit as the target destination. Taking a tourist on the $0th$ floor as an example, a schematic diagram of the path that can be selected is shown in Figure \ref{fig:exit}.
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=11cm]{exit.jpg}
+\caption{Schematic diagram of the escape route for Exit 2 and Exit 3} \label{fig:exit} %caption 即标题的意思
+\end{figure}
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=3.5cm,width=11cm]{exit_1.jpg}
+\caption{Schematic diagram of the escape route for selecting Exit 1} \label{fig:exit1} %caption 即标题的意思
+\end{figure}
+
+The black point in Figure \ref{fig:exit} indicates the position of a tourist, and the direction of the solid arrow indicates the direction in which the stair is allowed to go up or go down. If the tourist chooses to escape from Exit 2 and Exit 3, since the two exits are not restricted by the floor, the tourist can escape directly from the exit according to the path indicated by the dashed arrow in Figure \ref{fig:exit}. If the tourist chooses to escape from Exit 1, he can only climb to the first floor via the next staircase, then follow the path indicated by the dashed arrow in Figure \ref{fig:exit1} to reach the stairway in the lower left corner, and then descend to the $0th$ floor to escape from the exit; If the tourist chooses to escape from the entrance of the pyramid, it needs to descend to the $-2th$ floor by the stairs and then rise to the $0th$ floor. Because the principle is the same, the escape route will not be explained here.
+
+6.Final evacuation model based on queuing theory
+
+We have established a multi-floor building tourists evacuation model based on the improved cellular automata theory\cite{6}. The model solution results are not the final evacuation results. Tourists may not be leave the Louvre from the four exits at the same time. Based on the queuing theory, tourists who are near the crowded exit leave the queue to go to other exits with fewer tourists. We continuously iterate this model until our goal has been satisfied.
+
+The queuing theory allows the tourist to change the decision after making an initial decision because they are queuing or when they find that the route selected at the beginning cannot allow them to leave the building. In the simulation calculation, this part of the tourist can be arranged to go to another exit. In order to select the exit, the tourist scores each exit and selects the exit with the lowest score as the new target. If there are two or more exits with the same score, the tourist will randomly select an exit.
+
+The method of calculating the exit score is divided into five independent time parts:
+\begin{itemize}
+\item[1.]Time required to reach each exit
+
+\mbox{}\phantom{mm}$D$ is the distance from the tourist to the target exit, and $v$ is the speed at which the tourist moves. The time required is:
+\begin{equation}
+t_{walk}=\frac{D}{v}
+\end{equation}
+\item[2.] Time required to queue at the target exit
+
+\mbox{}\phantom{mm}$N$ is the total number of queued tourists at the target exit, and the time required is:
+\begin{equation}
+t_{queue}=\frac{N}{v}
+\end{equation}
+\item[3.] Actual time required to reach the end of the team
+
+\mbox{}\phantom{mm}$N$ is compared with the walking time $t_{move}$ of other tourists in the same plane. All tourists are moving with a shorter $t_{move}$ time than the previous one.
+
+\mbox{}\phantom{mm}From this you can calculate the actual time required for the tourist to reach the end of the team:
+\begin{equation}
+t_{RealTimeToWalk}=t_{move}-t_{AdjustmentWalk}
+\end{equation}
+\item[4.]Calibration of queuing time
+
+\mbox{}\phantom{mm}$N_{2}$ is the number of people who will reach the target exit at $t_{RealTimeToWalk}$ time, and we can correct the queue time by the following calculation:
+
+\begin{equation}
+t_{AdjustmentQueue}=\frac{N_2}{x_i}
+\end{equation}
+\item[5.]Actual queue time
+
+\mbox{}\phantom{mm}It is now possible to calculate the actual time required for the tourist to reach the tail of the queue of the target exit:
+\begin{equation}
+t_{RealTimeToQueue}=t_{queue}-t_{AdjustmentQueue}
+\end{equation}
+\end{itemize}
+\subsubsection{Solution of Model 1}
+%=============================== 模型结果============================================
+1.Results of the evacuation model under the shortest path principle
+
+Considered that tourists only choose the four main entrances of the Louvre as escape exits, first we will draw a plane view of each floor (excluding -2 floors) according to the determined Louvre satellite map.
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=14cm]{floor_1.jpg}
+\caption{Plane view of -1st floor} \label{fig:floor_1} %caption 即标题的意思
+\end{figure}
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=14cm]{floor0.jpg}
+\caption{Plane view of 0th floor} \label{fig:floor0} %caption 即标题的意思
+\end{figure}
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=6.5cm,width=14cm]{floor1.jpg}
+\caption{Plane view of 1st floor} \label{fig:floor1} %caption 即标题的意思
+\end{figure}
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=5.5cm,width=14cm]{floor2.jpg}
+\caption{Plane view of 2nd floor} \label{fig:floor1} %caption 即标题的意思
+\end{figure}
+
+The colored portions in the figures indicate the passage that the tourists can walk in, where the solid lines indicate the wall or obstacle, the arrows and their directions indicate that there is a staircase in this position and whether tourists could go upstairs or downstairs or both. Due to the limitation of program running time, we only import the 0th and 1st floor into MATLAB for simulation, which means we only consider the tourist evacuation path between the $0th$ and $1st$ floors of the Louvre. At this time, the pyramid entrance does not need to be put into use. If you want to simulate the tourist escape route of the pyramid entrance, what you need to do is simply adding $-2nd$ floor into MATLAB because the mathematical principle is the same. The locations of the tourists on the Louvre's $0th$ and $1st$ floors are randomly generated. During simulation, we suppose that there are 3000 tourists on the $0th$ and $1st$ floor respectively, namely the total number of tourists is 6000. The schematic diagram of the dynamic movement path is shown from Figure \ref{fig:one0} to \ref{fig:zero900}.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{one_0.jpg}
+\caption{Initial state}\label{fig:one0}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{one_300.jpg}
+\caption{Iteration 300 times on the $1st$ floor} \label{fig:one300}
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{one_600.jpg}
+\caption{Iteration 600 times on the $1st$ floor}\label{fig:one600}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{one_900.jpg}
+\caption{Iteration 900 times on the $1st$ floor} \label{fig:one900}
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{zero_0.jpg}
+\caption{Initial state on the $0th$ floor}\label{fig:zero0}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{zero_300.jpg}
+\caption{Iteration 300 times on the $0th$ floor} \label{fig:zero300}
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{zero_600.jpg}
+\caption{Iteration 600 times on the $0th$ floor}\label{fig:zero600}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=4.2cm,width=6cm]{zero_900.jpg}
+\caption{Iteration 900 times on the $0th$ floor} \label{fig:zero900}
+\end{minipage}
+\end{figure}
+
+The six staircases on the $1st$ floor of the Louvre are selected as the target exit for the tourists. Therefore, the dynamic path of the tourists moving to the stairway under the different iterations is shown from Figure \ref{fig:one0} to \ref{fig:one900}. It can be seen that as the number of iterations increases, the number of remaining tourists is decreasing. After 900 iterations, almost all tourists have dropped to the $0th$ floor. Figure \ref{fig:zero0} to \ref{fig:zero900} show the dynamic path of the tourists on the $0th$ floor moving to the three exits under different iterations. After 1630 iterations, almost all the tourists have fled the Louvre. At this point, you can calculate the time $t_{l}$ from the start of the escape to the last tourist leaving the Louvre as follow:
+
+Suppose $c$ is the size of a grid corresponding to the physical size of the Louvre, $n$ is the number of iterations, $v$ is the moving speed of the tourists, which is set to 4m/s for individual tourists.
+
+\begin{equation}\label{equ:escape}
+t_l=\frac{n*c}{v}
+\end{equation}
+
+From equation \ref{equ:escape}, $t_l=407.5s$ can be obtained easily.
+
+2.Results of evacuation model for the shortest evacuation time
+
+The time obtained in the previous part is not the shortest evacuation time which is ultimately required, because the tourists do not leave the Louvre at the same time. Hence the results need to be optimized. The evacuation time of the last tourist through the three different exits is shown in Table \ref{table:exit}.
+
+\begin{table}[H]
+\caption{Three different time for each exit} \label{table:exit}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Exit &iteration times & evacuation time(s)\\
+\hline
+Exit 1 &543 & 135.75\\
+\hline
+Exit 2 & 1630 & 407.5\\
+\hline
+Exit 3 & 1473 & 368.25\\
+\hline
+\end{tabular}
+\end{table}
+
+It can be seen from Table \ref{table:exit} that there are a large number of tourists who choose to Exit 2 and Exit 3 as escape exits. From these two exits, we select some tourists to Exit 1 to balance the evacuation time of each exit and choose different numbers of tourists. The results of the evacuation time are shown in Table \ref{table:exit2}. The shortest evacuation time is the maximum one of the three exits respectively.
+\begin{table}[H]
+\caption{Evacuation time corresponding to the different changes} \label{table:exit2}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\diagbox{Exit}{Evacuation time(s)}{changes} &50 & 100 &150&200\\
+\hline
+Exit 1 &152.75 & 169.25 & 186 & 202.75\\
+\hline
+Exit 2 & 390.75 & 374 &357.25 &340.75\\
+\hline
+Exit 3 & 350.75 & 334.25 &317.5 &300.75\\
+\hline
+\end{tabular}
+\end{table}
+
+It can be seen from Table ref{table:exit2} that the evacuation time decreases as the number of tourists leaving Exit 2 and Exit 3 increases, and eventually the evacuation time could decrease to the minimum.
+\subsection{Model 2}
+\mbox{}\phantom{mm}On the basis of the establishment of the evacuation model in task 1, the Louvre has at least five extra emergency exits in addition to the four main entrances as escape exits. We set some rules to determine when and how many emergency exits should be used.
+\subsubsection{Establishment}
+\mbox{}\phantom{mm}It can be assumed that when the number of queues of tourists to an exit exceeds a certain threshold, the iteration procedure terminates. At this time, an extra emergency exit is required, and the number of emergency exits is determined according to the set thresholds of different sizes, and the termination state of the former iteration is taken as the initial state of the next iteration until a satisfactory threshold is reached. The ultimate goal remains that all tourists leave the Louvre at the same time. By doing so, we could determine when and many emergency exits should be used.
+
+First, the number of tourists near per exit cannot exceed $Y_1$, assuming that one of the four main entrances is $N_x$ at the time $t_x$, and $N_x > Y_1$. That is, the threshold of the number of queues for tourists is exceeded, and an emergency exit is required at this time. We arbitrarily introduce an emergency exit into our model, using the evacuation model established in Model 1 to carry on the iterative solution, and check whether the number of tourists $N_r$ at each exit from the current time to all five exits is less than or equal to $Y_1$. If so, it is considered that an emergency exit can be put in order to meet the requirements, and the time when it should be introduced can be obtained. Otherwise, the number of extra emergency exit still needs to be increased, and the inspection is continued until the requirements are met.
+
+The following is an optimization of the established model. Considering that if the threshold $Y_1$ is unreasonable, there will be a situation in which an emergency exit can be satisfied to meet the requirement. At this time, the threshold can be changed at a certain time $t_y$ in the iterative process after an extra emergency exit is introduced. For $Y_2(Y_2 < Y_1)$, the current number of tourists to an exit is $N_y$, and $Y_1 > N_y > Y_2$ is satisfied, so at least one emergency exit is required at the current moment. The iterative calculation method is the same as the case where only one emergency exit is used. Thresholds of different gradients can be set to determine the time and amount of emergency exits.
+
+The flowchart in Model 2 is shown as follow:
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=10.5cm,width=10cm]{flowchart_model_2.jpg}
+\caption{Flowchart in Model 2} \label{fig:flowchart2} %caption 即标题的意思
+\end{figure}
+\subsubsection{Solution of Model 2}
+\mbox{}\phantom{mm}The threshold of the number of tourists near per entrance $Y_1$ is set to 250. The number of tourists at the Exit 3 at $t_x=22.5s$ is $N_x=269>Y_1$. At this time, it is necessary to introduce an extra emergency exit. A schematic diagram of the path of dynamic movement is shown in Figure \ref{fig:model2solution}.
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=7.5cm,width=10cm]{model_2.jpg}
+\caption{Schematic diagram of the movement path at $t_x=22.5s$} \label{fig:model2solution} %caption 即标题的意思
+\end{figure}
+
+It can be seen from the Figure \ref{fig:model2solution} that at the current time, there are more tourists near Exit 3 than other exits. Hence it is more reasonable to introduce an extra emergency exit right now. The same can be done to determine whether or not should we introduce other extra exits in the next iteration procedures.
+\subsection{Model 3}
+\mbox{}\phantom{mm}In the Model 1 and Model 2, the evacuation model of the Louvre has been initially established, taking into account factors such as the shape of the space, the type of tourists, the structure of the each floor. In addition, the emergency personnel of the Louvre should be able to identify potential bottlenecks and deal with different types of risks. They should also study the impact of possible risks on the moving path of tourists and the choice of escape exits.
+\subsubsection{Establishment}
+\mbox{}\phantom{mm}We can assume that a certain location in the Louvre has become impassable due to certain risks. The special emergency exit for emergency personnel is selected according to the location of the obstacle. Before the risk is cleared, the tourists can only choose other routes, and the obstacle will be cleared for a period of time. After it clearance, tourists can choose the path as usual. During the clearing time, tourists cannot select the special emergency exit as the escape exit. Therefore, including the model established before, we establishe a evacuation model based on the dynamic network equilibrium theory\cite{7}.
+
+Unlike the people flow in the daily case, there is a clear path selection in the evacuation process of tourists. In the event of an emergency, tourists want to reach the safe area as quickly as possible, and dynamically select the path with a shorter evacuation time based on the real-time situation after the emergency occurs. If everyone chooses the best route to evacuate and can't get a better strategy through unilateral changes, then the tourists in the Louvre will reach a dynamic user-optimal state.
+
+Obstacles are created after the emergency occurs. These obstacles and exits divide the Louvre into different sections. To avoid enumeration of paths, the area is divided into a series of cells to simplify the description. Due to obstacles and exit restrictions, the cells are no longer a uniform specification, and their size needs to be adjusted according to the actual situation. In order to ensure the accuracy and efficiency of the simulation, the width of the cell is set to $1m$ to $3m$.
+
+It is assumed that in the evacuation network $G=G(R)$, $R$ is a set of cells, $D \subset R$ is a set of exit cells, and $R_i \subset R$ is a set of neighbor cells of cell $i$. The simulation time $T$ is discretized into a time step $K=k(k=1,2,...)$, $|K|$ time steps, and each time step $\delta$ seconds, there is $T=|K|*\delta$. In the dynamic user optimal state, the instantaneous evacuation time of each used path is equal and minimal, and the instantaneous evacuation time of the unused path is greater than or equal to the evacuation time of the used path. That is to say, under the instantaneous user dynamic optimal condition, if there is tourist occupation on the path $p$ in the $kth$ time period, the instantaneous evacuation time of the path is the smallest. If no tourists chooses path $p$ evacuation during the $kth$ time period, the instantaneous evacuation time of the path will not be less than the minimum evacuation time. Therefore, the mathematical representation of the path-based instantaneous user dynamic optimal condition is as follows:
+
+\begin{equation}
+\left\{ \begin{array}{cl} \label{equ:model3}
+C_{p}^{i,d}(k)=\pi_{p}(k) & \textrm{if} n_{p}^{i,d}(k)>0\\
+C_{p}^{i,d}(k)>\pi_{p}(k) & \textrm{if} n_{p}^{i,d}(k)=0\\
+\end{array} \right. % \right. 隐藏右边的括号 点(.) 不可少  \right\} 可在右侧生成括号
+\end{equation}
+
+The mathematical model embodied by equation \ref{equ:model3} is a dynamic selection model based on path. Tourists can judge the surrounding environment in real time, so that when the obstacles are encountered, other paths are selected to meet the dynamic user optimal principle with the minimum evacuation time as the goal. Since the solution of the model needs to enumerate all the paths from the cell to each exit, it is very difficult to solve the model directly. To solve this problem, we transform the path-based DUO condition into a cell-based condition. During the evacuation process, the tourists move through the individual cells on the evacuation path from the initial position to the destination (or safe area), and the pedestrians will adjust their own paths at any time to dynamically select the cells to move to in the next step. If the pedestrian has selected an exit for evacuation, it will select a shortest path to the exit, minimizing the travel time and queue waiting time at the exit. As shown in Figure \ref{fig:route}, the tourist in cell $i$ has to move to the exit $d$ before passing through its adjacent cell $j$.
+
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=1.8cm,width=10cm]{route.jpg}
+\caption{Cell-based dynamic path selection} \label{fig:route} %caption 即标题的意思
+\end{figure}
+
+Similar to the path-based instantaneous user dynamic optimal conditional equation \ref{equ:model3}, if the number of tourists evacuated from the exit $d$ via the cell $j$ in the $kth$ period cell is greater than zero, the corresponding evacuation time is the shortest time; The number of tourists evacuated from the exit $d$ via the cell $j$ in the $k$period cell $i$ is equal to zero, and the corresponding evacuation time will be greater than the shortest evacuation time. Therefore, the mathematical equation of the instantaneous user dynamic optimal condition based on the cell is as follows:
+
+\begin{equation}
+\left\{ \begin{array}{cl} \label{equ:model33}
+C_{j}^{i,d}(k)=\pi_{i}(k) & \textrm{if} n_{j}^{i,d}(k)>0\\
+C_{j}^{i,d}(k)>\pi_{i}(k) & \textrm{if} n_{j}^{i,d}(k)=0\\
+\end{array} \right. % \right. 隐藏右边的括号 点(.) 不可少  \right\} 可在右侧生成括号
+\end{equation}
+
+ In equation \ref{equ:model33},$\pi_i(k)$ represents at the $k$period, the minimum cell evacuation time of the tourist in cell $i$. $C_j^{(i,d)}(k?)$ represents at the $k$period, the instantaneous movement time of selecting adjacent cell $j \subset R_i$ in cell $i$ and selecting exit $d$. $n_j^{(i,d)}(k?)$ represents at the $k$period, the number of tourists in the cell $i$ that select adjacent cells $j \subset R_i$ and evacuate from the exit $d$.
+
+ The above-described cellular-based instantaneous dynamic optimal path selection condition can be equivalently expressed as a nonlinear complementary problem as follows:
+
+ \begin{equation}
+\left\{ \begin{array}{cc} \label{equ:model333}
+n_j^{i,d}(k)(C_j^{i,d}(k)-\pi^{i}(k))=0 & \forall{i}\subset R,j\subset R_i,d \subset D \\
+\sum_j\sum_d n_{j}^{i,d}(k)=n_i(l=k)& \forall{i} \subset R\\
+C_j^{i,d}(k)-\pi^{i}(k)) \ge 0 & \forall{i}\subset R,j\subset R_i,d \subset D\\
+n_j^{i,d}(k) \ge 0 & \forall{i}\subset R,j\subset R_i,d \subset D\\
+\end{array} \right. % \right. 隐藏右边的括号 点(.) 不可少  \right\} 可在右侧生成括号
+\end{equation}
+
+So we have established a cell-based dynamic selection model. The specific steps for model building are as follows:
+\begin{itemize}
+\item[1.]Individuals, groups and disabled tourists make decisions. After the emergency occurred, the decision made at this time was basically random and conspicuous.
+\item[2.]Update exit and cell information. Judging the distribution of tourists inside the Louvre after an emergency.
+\item[3.]Determine whether there are channels for most tourists. If there is a path, go to step 4; if there is no path, go to step 7;
+\item[4.]Step by step optimize path. Since there is no emergency at the exit, the path can be optimized according to the model established above.
+\item[5.]Perceive the crowd and the surrounding environment. Tourists inside the Louvre can sense environmental changes in real time in order to make the right decisions.
+\item[6.]Update the speed position. Constantly update speed and location to make judgments about evacuation.
+\item[7.]Open the emergency exit. Because of the emergency situation at the common exit location, staff members are required to open a new emergency exit.
+\item[8.]The system re-updates the exit and location. It is easy to recognize the overall network structure of the Louvre after the emergency exit.
+\item[9.]Cognitive network. Recognizing the distribution of tourists throughout the Louvre in order to help choose the right path.
+\item[10.]Select the appropriate exit and estimate the evacuation time.
+\item[11.]Select the optimal path. Select the currently considered optimal path. In order to keep the entire escape route optimal, you need to go to step 5.
+\item[12.] Determine if the evacuation is over. If not, return to steps 1, 4, 5 and step 10 as appropriate.
+\end{itemize}
+
+The specific procedure of Model 3 is shown in Figure \ref{fig:flowchart3}.
+\begin{figure}[H] %[H]表明图片输出在指定想要的位置（即代码处的位置），不然图片输出此页最上方，
+\centering
+\includegraphics[angle=0,height=10.5cm,width=10cm]{flowchart_model_3.jpg}
+\caption{The specific procedure of Model 3} \label{fig:flowchart3} %caption 即标题的意思
+\end{figure}
+\subsubsection{Solution of Model 3}
+\mbox{}\phantom{mm}Based on the model established above, We make simulation of the $0th$ floor in the Louvre. At 37.5$s$, one of the exits of the Louvre was blocked and obstacles were added to the exhibition hall. The simulation model diagrams are shown from Figure \ref{fig:model30} to \ref{fig:model3450}:
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=5cm,width=7cm]{model30.jpg}
+\caption{Initial state}\label{fig:model30}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=5cm,width=7cm]{model3150.jpg}
+\caption{Iteration 150 times} \label{fig:model3150}
+\end{minipage}
+\end{figure}
+\begin{figure}[H]
+\centering
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=5cm,width=7cm]{model3300.jpg}
+\caption{Iteration 300 times}\label{fig:model3300}
+\end{minipage}%
+\begin{minipage}[c]{0.5\textwidth}
+\centering
+\includegraphics[height=5cm,width=7cm]{model3450.jpg}
+\caption{Iteration 450 times} \label{fig:model3450}
+\end{minipage}
+\end{figure}
+
+In the above figures, the red point indicates that the normal exit is blocked, the green point indicates the emergency exit is introduced according to the actual situation of the Louvre, and the black line indicates the obstacle. As can be seen from Figure \ref{fig:model3150} and \ref{fig:model3300}, when an iteration occurs 150 times, the exit is blocked, the tourists can't get out, and obstacles appear in the hall, making the route to another exit impassable to these tourists. When the system re-evaluated the exit and cell positions, introduced an emergency exit in time, and re-planned the escape route for tourists. In Figure \ref{fig:model3450} we can see that most of the tourists have escaped from the Louvre successfully. It is foreseeable that after a number of iterations, all visitors will be expected to escape the Louvre.
+
+Through simulation, the instantaneous user dynamic optimal model based on the cell is well applied, which can solve the dynamic optimal route problem of tourists' escape after a sudden emergency.
+
+\subsection{Recommendations for emergency management}
+\mbox{}\phantom{mm}Based on the established Louvre evacuation model, policies and procedures are proposed for the Louvre's emergency management, which is convenient for emergency managers to evacuate all tourists quickly and successfully.
+
+Considered the various unfavorable factors displayed during the simulation of the evacuation, based on the mathematical models and the cellular automata theory, queuing theory and dynamic network theory established in the three models and  the related results,we make the following recommendations to the emergency management staff at the Louvre. The measures mainly include the following two aspects: one is to optimize and improve existing equipment and facilities, and the other is to restrict and manage tourists.
+
+1.Improve existing equipments
+
+In terms of facilities, the way to increase the evacuation speed of personnel is mainly to increase the number of evacuation channels of the Louvre and the number or width of emergency exits, and to reduce the stairs and obstacles on the evacuation route.
+
+Affected by the characteristics of the Louvre's architectural structure, the method of increasing evacuation passages or emergency exits is not the best method. The structure of the entrances and exits in the Louvre is inherently complicated, and only the emergency personnel and museum officials know all the exit locations. Increasing the number of exits will make the structure of the Louvre more complicated , making it more difficult for tourists to find the nearest safe exit in an emergency. At the same time, the overly complex structure is not conducive to the day-to-day management and emergency work of the Louvre, and it may be necessary to walk longer than before.
+
+In review of the simulation results of the established personnel evacuation model, in order to decrease the time of evacuation of tourists under the existing conditions, the most feasible way is to avoid or reduce obstacles on the moving path. Take the tourists on the $0th$ floor as an example. If there is an obstacle from the nearest elevator door leading to the first floor, then the passenger cannot enter the $1st$ floor and then go down to the $0th$ floor through the stairs to reach the Lions Gate exit.
+Hence, they have to choose another exit and it may extend the evacuation time. Therefore, we recommend that some emergency personnel install monitoring equipment in areas with high risk to reduce the possibility of emergencies.
+
+2.Develop an APP
+
+The staff can develop an APP by referring to the models and codes we have made. The main functions include displaying the topographic maps in the Louvre and the locations of the rest of the tourists in real time, and can get the current location of the tourists. Of course, the most important one is that it could give a shortest feasible options for each tourist. Tourists only need to download this app on their mobile phones or other electronic devices, so they can keep abreast of environmental changes, visitor information and viable evacuation options in the Louvre.
+
+3.Strengthen the management of tourists
+
+The emergency evacuation of the Louvre is centred around tourists. When it is difficult to renovate existing facilities to improve emergency evacuation capacity, in order to ensure that all tourists can reach the safe exit in time when an emergency occurs, in order to prevent tourists from being trampled in the Louvre due to overcrowding, it is necessary to limit the number of tourists entering the Louvre when necessary. The method can be used to place a diversion fence at the entrance and exit of the Louvre subway station or bus station, allowing tourists to slowly enter the Louvre through the diversion fence.
+\subsection{Applied in other  architectures}
+\mbox{}\phantom{mm}In response to the formulation of the evacuation plan of the Louvre, we first established a multi-level building personnel evacuation model based on the improved cellular automata theory and obtained the evacuation time of the tourists according to the shortest path principle, and then used the queuing theory to make optimization. For the determination of the time and number of emergency exit introduction, we assume that if the number of queues of tourists for an exit exceeds a certain threshold, iteration terminates. At this time, an emergency exit is required, and the number of emergency exits is determined according to the thresholds of different sizes set.
+
+So far we have initially established the evacuation model of the Louvre, taking into account factors such as the shape of the space, the type of tourists, the structure of the exit and the number, and then further optimizing the model considering the possible emergencies. We assume that a certain location within the Louvre is impassable due to certain risks. The emergency entrance and exit are selected according to the location of the obstacle. During the obstacle clearing, the passenger cannot select the special entrance and exit of the emergency personnel as the escape exit. We established a tourist evacuation model based on the dynamic network equilibrium theory, so that tourists can dynamically select the path with short evacuation time according to the real-time situation after the risk occurs, and finally find the shortest evacuation time.
+
+In summary, the Louvre evacuation model we have studied has studied the impact of factors such as building topography, floor structure, personnel characteristics, number and location of exits, and emergency conditions on evacuation time. According to the established model, the feasible suggestions for the Louvre emergency management personnel were put forward, and the model can be applied to other large buildings, which has certain universality and fault tolerance.
+\section{Sensitivity Analysis}%确认模型，使之合理。
+\mbox{}\phantom{mm}Since we were unable to find real statistics on the Louvre, we could only randomly select the number and location of tourists in simulation. Although there may be deviations from the actual situation, the program simulation results better reflect the theoretical state of the tourists when they escape. We observe the impact on evacuation time by changing the number of visitors and the location of each floor. The evacuation time of each exit under different tourist numbers and distribution locations is shown in Table \ref{table:exit33}.
+\begin{table}[H]
+\caption{Evacuation time with different parameters} \label{table:exit33}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\diagbox{Exit}{Evacuation time(s)}{tourist numbers} &500 & 1000 &1500&2000&2500\\
+\hline
+Exit 1 &123.25 & 125.25 & 126.5 & 126.75&135.75\\
+\hline
+Exit 2 & 97 & 150.25 &201.25 &285.75&342\\
+\hline
+Exit 3 & 147.5 & 152.5 &212.75 &262.5&311\\
+\hline
+\end{tabular}
+\end{table}
+From Table \ref{table:exit33} we can see that the evacuation time of each exit increases as the number of visitors increases and the position changes.However, all the tourists in this process will dynamically adjust the optimal escape route, so the increase of evacuation time is within the allowable range, and the sensitivity of the model is considered to be better.
+\section{Strengths and weaknesses}
+\mbox{}\phantom{mm}Like any model, our models have their own strengths and weaknesses. Some of the major points are presented below.
+%============================ 模型=优点====================================
+\subsection{Strengths}
+\begin{itemize}
+\item[1.]Determining the goal is to ensure that the time taken by the last tourist to leave the Louvre is the shortest when the emergency occurs, and the evacuation time is the shortest when all the tourists who escape from the exit leave the selected target exit at the same time. We also demonstrate the rationality of the goal.
+\item[2.]The cellular automaton theory is used to establish the mathematical model, and the nonlinear physical phenomenon is simulated directly according to certain rules, thus eliminating the cumbersomeness of constructing the differential equation, and it has a strong ability to express complex relationships.
+
+
+\item[3.]The traditional cellular automata theory is optimized in terms of building structure and personnel characteristics, which can be better applied to the special complex environment of the Louvre and facilitate the construction of corresponding personnel evacuation models.
+
+\item[4.]This paper considers the Louvre's multi-level building evacuation model, introduces the concept of super-end point, and transforms the problem into an evacuation model with multiple source points and single-end points, which improves the validity and feasibility of the model.
+\end{itemize}
+\subsection{Weaknesses}
+\begin{itemize}
+\item[1.] The data and statistics of the specific tourist flow in the Louvre are lacking. The results obtained by the model may be deviated from the actual situation. If the mathematical analysis method is used to summarize the known data, the accuracy of the statistics can be improved.
+
+
+\item[2.]In the purpose of simplifying the model, this paper sets some basic assumptions, which are different from the actual situation. For example, without considering the occurrence of an emergency and the impact of the elevator on the evacuated population, which means further research is needed.
+\end{itemize}
+
+\newpage
+\begin{thebibliography}{99}
+\addcontentsline{toc}{section}{References} %add references into contents
+\bibitem{1} Yue Hao, Shao Chunfu, Yao Zhisheng. Study on pedestrian evacuation flow simulation based on cellular automata[J]. Acta Physica Sinica,2009,58(07):4523-4530
+\bibitem{2}http://www.google.com/maps/@48.8615288,2.3336687,716m/data=!3m1!1e3
+\bibitem{3}Cui Xihong, Li Qiang, Chen Jin, Chen Chunxiao. Research on evacuation model of large public places——considering individual characteristics and herding behavior[J].Journal of Natural Disasters,2005(06):133-140.
+\bibitem{4}Yue H, Hao H R, Chen XM, Shao C F 2007 Physica A 384 567
+\bibitem{5}Yang Jianfang, Gao Yan, Wang Hongjie. Emergency evacuation model and algorithm for multi-story buildings[J]. Journal of System Simulation, 2014, 26(02): 267-273.
+\bibitem{6}Zhang Lingyun. Research on subway evacuation and safety early warning based on queuing theory and social force model [D]. Capital University of Economics and Business, 2010.
+\bibitem{7}Qu Yunchao. Modeling and dynamic characteristics of evacuation behavior in dense populations [D]. Beijing Jiaotong University, 2015.
+\end{thebibliography}
+\end{document}
+% ----- End of Document Body -----

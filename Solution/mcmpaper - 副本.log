@@ -1,0 +1,1878 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.9)  10 JAN 2020 04:30
+entering extended mode
+**C:/Users/Administrator/Desktop/fall*quarter/ECE269/ece269_project/Solution/mc
+mpaper*-*副本.tex
+
+("C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/mc
+mpaper - 副本.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\MC
+M.sty"
+
+LaTeX Warning: You have requested package `MCM',
+               but the package provides `MCMthesis'.
+
+Package: MCMthesis 2014/01/28 v5.01-L MCM thesis
+MCMthesis for MCM Version 5.01-L
+(G:\LaTex\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count87
+)
+\etb@tempcnta=\count88
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fancybox\fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box26
+\shadowsize=\dimen103
+\@Sbox=\box27
+\do@VerbBox=\toks15
+\the@fancyput=\toks16
+\this@fancyput=\toks17
+\EndVerbatimTokens=\toks18
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (G:\LaTex\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\lastpage\lastpage.sty
+Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count89
+\lst@gtempboxa=\box28
+\lst@token=\toks19
+\lst@length=\count90
+\lst@currlwidth=\dimen104
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen107
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box29
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\appendix\appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count97
+\c@@ppsavesec=\count98
+\c@@ppsaveapp=\count99
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\paralist\paralist.sty
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip52
+\plpartopsep=\skip53
+\plitemsep=\skip54
+\plparsep=\skip55
+\pl@lab=\toks20
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
+\dth@everypar=\toks26
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks28
+\ex@=\dimen108
+))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks29
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks30
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks31
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\tools\bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\tools\longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count112
+\LTcapwidth=\dimen117
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
+\LT@p@ftn=\toks33
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen118
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\tools\hhline.sty
+Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks34
+\extratabsurround=\skip66
+\backup@length=\skip67
+)
+\TX@col@width=\dimen121
+\TX@old@table=\dimen122
+\TX@old@col=\dimen123
+\TX@target=\dimen124
+\TX@delta=\dimen125
+\TX@cols=\count117
+\TX@ftn=\toks35
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\flafter.sty
+Package: flafter 2000/07/23 v1.2i Standard LaTeX floats after reference (FMi)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\psnfss\pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count118
+\calc@Bcount=\count119
+\calc@Adimen=\dimen126
+\calc@Bdimen=\dimen127
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count120
+\calc@Cskip=\skip70
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\colortbl\colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count121
+))
+\everycr=\toks36
+\minrowclearance=\skip71
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen128
+\lightrulewidth=\dimen129
+\cmidrulewidth=\dimen130
+\belowrulesep=\dimen131
+\belowbottomsep=\dimen132
+\aboverulesep=\dimen133
+\abovetopsep=\dimen134
+\cmidrulesep=\dimen135
+\cmidrulekern=\dimen136
+\defaultaddspace=\dimen137
+\@cmidla=\count122
+\@cmidlb=\count123
+\@aboverulesep=\dimen138
+\@belowrulesep=\dimen139
+\@thisruleclass=\count124
+\@lastruleclass=\count125
+\@thisrulewidth=\dimen140
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(G:\LaTex\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count126
+\Gm@cntv=\count127
+\c@Gm@tempcnt=\count128
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks37
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\bera\berasans.sty
+Package: berasans 2004/01/30 (WaS)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2012/02/06 v6.82o Hypertext links for LaTeX
+
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+\@linkdim=\dimen149
+\Hy@linkcounter=\count129
+\Hy@pagecounter=\count130
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2012/02/06 v6.82o Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count131
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4046.
+Package hyperref Info: Link nesting OFF on input line 4051.
+Package hyperref Info: Hyper index ON on input line 4054.
+Package hyperref Info: Plain pages OFF on input line 4061.
+Package hyperref Info: Backreferencing OFF on input line 4066.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4284.
+\c@Hy@tempcnt=\count132
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4637.
+\Fld@menulength=\count133
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 5757.
+Package hyperref Info: Link nesting OFF on input line 5762.
+Package hyperref Info: Hyper index ON on input line 5765.
+Package hyperref Info: backreferencing OFF on input line 5772.
+Package hyperref Info: Link coloring OFF on input line 5777.
+Package hyperref Info: Link coloring with OCG OFF on input line 5782.
+Package hyperref Info: PDF/A mode OFF on input line 5787.
+LaTeX Info: Redefining \ref on input line 5827.
+LaTeX Info: Redefining \pageref on input line 5831.
+\Hy@abspage=\count134
+\c@Item=\count135
+\c@Hfootnote=\count136
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2012/02/06 v6.82o Hyperref driver for pdfTeX
+\Fld@listcount=\count137
+\c@bookmark@seq@number=\count138
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip72
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+\@abstract=\box36
+\@keywords=\box37
+\c@Theorem=\count139
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+))
+(G:\LaTex\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count140
+\float@exts=\toks38
+\float@box=\box38
+\@float@everytoks=\toks39
+\@floatcapt=\box39
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\diagbox\diagbox.sty
+Package: diagbox 2011/11/23 v2.0 Making table heads with diagonal lines
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\pict2e\pict2e.sty
+Package: pict2e 2011/04/05 v0.2y Improved picture commands (HjG,RN,JT)
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\00miktex\pict2e.cfg
+File: pict2e.cfg 2005/12/29 v1.0 MiKTeX 'pict2e' configuration
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\pict2e\p2e-pdftex.def
+File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks40
+\@arclen=\dimen154
+\@arcrad=\dimen155
+\@tempdimd=\dimen156
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count141
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count142
+\FP@xia=\count143
+\FP@xib=\count144
+\FP@xfa=\count145
+\FP@xfb=\count146
+\FP@rega=\count147
+\FP@regb=\count148
+\FP@regs=\count149
+\FP@times=\count150
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count151
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+\diagbox@boxa=\box40
+\diagbox@boxb=\box41
+\diagbox@boxm=\box42
+\diagbox@wd=\dimen157
+\diagbox@ht=\dimen158
+\diagbox@sepl=\dimen159
+\diagbox@sepr=\dimen160
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\psnfss\palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(G:\LaTex\CTEX\MiKTeX\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@law=\count152
+\c@mur=\count153
+
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\mc
+mpaper - 副本.aux"
+
+LaTeX Warning: Label `fig:flowchart' multiply defined.
+
+
+LaTeX Warning: Label `fig:eigenface' multiply defined.
+
+
+LaTeX Warning: Label `fig:13' multiply defined.
+
+
+LaTeX Warning: Label `fig:small' multiply defined.
+
+
+LaTeX Warning: Label `fig:part4' multiply defined.
+
+
+LaTeX Warning: Label `fig:part4' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 48.
+ (G:\LaTex\CTEX\MiKTeX\tex\latex\psnfss\t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 48.
+\c@lstlisting=\count154
+
+(G:\LaTex\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count155
+\scratchdimen=\dimen161
+\scratchbox=\box43
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen162
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks42
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring OFF on input line 48.
+(G:\LaTex\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(G:\LaTex\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count161
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\mc
+mpaper - 副本.out")
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\mc
+mpaper - 副本.out")
+\@outlinefile=\write4
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 759.6886pt, 14.22636pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=759.6886pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+ (G:\LaTex\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 85.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 85.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
+
+<./figures/aver1.jpg, id=75, 220.4235pt x 262.581pt>
+File: ./figures/aver1.jpg Graphic file (type jpg)
+ <use ./figures/aver1.jpg>
+Package pdftex.def Info: ./figures/aver1.jpg used on input line 101.
+(pdftex.def)             Requested size: 220.42294pt x 262.58034pt.
+
+<./figures/eigenface1.jpg, id=77, 1204.5pt x 903.375pt>
+File: ./figures/eigenface1.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface1.jpg>
+Package pdftex.def Info: ./figures/eigenface1.jpg used on input line 109.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 109--110
+ [][] 
+ []
+
+<./figures/eigenface2.jpg, id=78, 1204.5pt x 903.375pt>
+File: ./figures/eigenface2.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface2.jpg>
+Package pdftex.def Info: ./figures/eigenface2.jpg used on input line 113.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 113--114
+ [][] 
+ []
+
+<./figures/eigenface3.jpg, id=79, 1204.5pt x 903.375pt>
+File: ./figures/eigenface3.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface3.jpg>
+Package pdftex.def Info: ./figures/eigenface3.jpg used on input line 117.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 117--118
+ [][] 
+ []
+
+<./figures/eigenface4.jpg, id=80, 1204.5pt x 903.375pt>
+File: ./figures/eigenface4.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface4.jpg>
+Package pdftex.def Info: ./figures/eigenface4.jpg used on input line 121.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 121--122
+ [][] 
+ []
+
+<./figures/eigenface5.jpg, id=81, 1204.5pt x 903.375pt>
+File: ./figures/eigenface5.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface5.jpg>
+Package pdftex.def Info: ./figures/eigenface5.jpg used on input line 128.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 128--129
+ [][] 
+ []
+
+<./figures/eigenface6.jpg, id=82, 1204.5pt x 903.375pt>
+File: ./figures/eigenface6.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface6.jpg>
+Package pdftex.def Info: ./figures/eigenface6.jpg used on input line 132.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 132--133
+ [][] 
+ []
+
+<./figures/eigenface7.jpg, id=83, 1204.5pt x 903.375pt>
+File: ./figures/eigenface7.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface7.jpg>
+Package pdftex.def Info: ./figures/eigenface7.jpg used on input line 136.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 136--137
+ [][] 
+ []
+
+<./figures/eigenface8.jpg, id=84, 1204.5pt x 903.375pt>
+File: ./figures/eigenface8.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface8.jpg>
+Package pdftex.def Info: ./figures/eigenface8.jpg used on input line 140.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 140--141
+ [][] 
+ []
+
+<./figures/eigenface9.jpg, id=85, 1204.5pt x 903.375pt>
+File: ./figures/eigenface9.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface9.jpg>
+Package pdftex.def Info: ./figures/eigenface9.jpg used on input line 145.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 145--146
+ [][] 
+ []
+
+<./figures/eigenface10.jpg, id=86, 1204.5pt x 903.375pt>
+File: ./figures/eigenface10.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface10.jpg>
+Package pdftex.def Info: ./figures/eigenface10.jpg used on input line 149.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+<./figures/eigenface11.jpg, id=87, 1204.5pt x 903.375pt>
+File: ./figures/eigenface11.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface11.jpg>
+Package pdftex.def Info: ./figures/eigenface11.jpg used on input line 153.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 153--154
+ [][] 
+ []
+
+<./figures/eigenface12.jpg, id=88, 1204.5pt x 903.375pt>
+File: ./figures/eigenface12.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface12.jpg>
+Package pdftex.def Info: ./figures/eigenface12.jpg used on input line 157.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 157--158
+ [][] 
+ []
+
+<./figures/eigenface13.jpg, id=89, 1204.5pt x 903.375pt>
+File: ./figures/eigenface13.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface13.jpg>
+Package pdftex.def Info: ./figures/eigenface13.jpg used on input line 162.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+<./figures/eigenface14.jpg, id=90, 1204.5pt x 903.375pt>
+File: ./figures/eigenface14.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface14.jpg>
+Package pdftex.def Info: ./figures/eigenface14.jpg used on input line 166.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 166--167
+ [][] 
+ []
+
+<./figures/eigenface15.jpg, id=91, 1204.5pt x 903.375pt>
+File: ./figures/eigenface15.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface15.jpg>
+Package pdftex.def Info: ./figures/eigenface15.jpg used on input line 170.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 170--171
+ [][] 
+ []
+
+<./figures/eigenface16.jpg, id=92, 1204.5pt x 903.375pt>
+File: ./figures/eigenface16.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface16.jpg>
+Package pdftex.def Info: ./figures/eigenface16.jpg used on input line 174.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+<./figures/eigenface17.jpg, id=93, 1204.5pt x 903.375pt>
+File: ./figures/eigenface17.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface17.jpg>
+Package pdftex.def Info: ./figures/eigenface17.jpg used on input line 178.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 178--179
+ [][] 
+ []
+
+<./figures/eigenface18.jpg, id=94, 1204.5pt x 903.375pt>
+File: ./figures/eigenface18.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface18.jpg>
+Package pdftex.def Info: ./figures/eigenface18.jpg used on input line 183.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 183--184
+ [][] 
+ []
+
+<./figures/eigenface19.jpg, id=95, 1204.5pt x 903.375pt>
+File: ./figures/eigenface19.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface19.jpg>
+Package pdftex.def Info: ./figures/eigenface19.jpg used on input line 187.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 187--188
+ [][] 
+ []
+
+<./figures/eigenface20.jpg, id=96, 1204.5pt x 903.375pt>
+File: ./figures/eigenface20.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface20.jpg>
+Package pdftex.def Info: ./figures/eigenface20.jpg used on input line 191.
+(pdftex.def)             Requested size: 113.80379pt x 91.04579pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 191--192
+ [][] 
+ []
+
+[1
+
+
+
+{G:/LaTex/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.1}) has been 
+already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.195 F
+       rom Figure \ref{fig:eigenface}, you can see there are 20 different ei...
+ <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fi
+gures/aver1.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_pro
+ject/Solution/figures/eigenface1.jpg> <C:/Users/Administrator/Desktop/fall quar
+ter/ECE269/ece269_project/Solution/figures/eigenface2.jpg> <C:/Users/Administra
+tor/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface3.jpg>
+ <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fi
+gures/eigenface4.jpg>] [2pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.203  I
+        n order to reconstruct the expression using different eigenfaces, fi...
+ <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fi
+gures/eigenface5.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece26
+9_project/Solution/figures/eigenface6.jpg> <C:/Users/Administrator/Desktop/fall
+ quarter/ECE269/ece269_project/Solution/figures/eigenface7.jpg> <C:/Users/Admin
+istrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface8
+.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Soluti
+on/figures/eigenface9.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/
+ece269_project/Solution/figures/eigenface10.jpg> <C:/Users/Administrator/Deskto
+p/fall quarter/ECE269/ece269_project/Solution/figures/eigenface11.jpg> <C:/User
+s/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eig
+enface12.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_projec
+t/Solution/figures/eigenface13.jpg> <C:/Users/Administrator/Desktop/fall quarte
+r/ECE269/ece269_project/Solution/figures/eigenface14.jpg> <C:/Users/Administrat
+or/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface15.jpg>
+ <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fi
+gures/eigenface16.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece2
+69_project/Solution/figures/eigenface17.jpg> <C:/Users/Administrator/Desktop/fa
+ll quarter/ECE269/ece269_project/Solution/figures/eigenface18.jpg> <C:/Users/Ad
+ministrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenfa
+ce19.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/So
+lution/figures/eigenface20.jpg>]
+<./figures/13a.jpg, id=116, 162.6075pt x 193.72375pt>
+File: ./figures/13a.jpg Graphic file (type jpg)
+ <use ./figures/13a.jpg>
+Package pdftex.def Info: ./figures/13a.jpg used on input line 210.
+(pdftex.def)             Requested size: 113.81454pt x 99.58409pt.
+
+<./figures/face13.jpg, id=117, 289.08pt x 344.487pt>
+File: ./figures/face13.jpg Graphic file (type jpg)
+
+<use ./figures/face13.jpg>
+Package pdftex.def Info: ./figures/face13.jpg used on input line 215.
+(pdftex.def)             Requested size: 113.8082pt x 99.58328pt.
+
+<./figures/part2_result.jpg, id=119, 432.4155pt x 379.4175pt>
+File: ./figures/part2_result.jpg Graphic file (type jpg)
+
+<use ./figures/part2_result.jpg>
+Package pdftex.def Info: ./figures/part2_result.jpg used on input line 235.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.240 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.240 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.240 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/13a.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269
+_project/Solution/figures/face13.jpg> <C:/Users/Administrator/Desktop/fall quar
+ter/ECE269/ece269_project/Solution/figures/part2_result.jpg>]
+<./figures/part2_5.jpg, id=138, 163.812pt x 195.129pt>
+File: ./figures/part2_5.jpg Graphic file (type jpg)
+
+<use ./figures/part2_5.jpg>
+Package pdftex.def Info: ./figures/part2_5.jpg used on input line 246.
+(pdftex.def)             Requested size: 113.81525pt x 99.58592pt.
+
+<./figures/part2_7.jpg, id=139, 202.356pt x 238.491pt>
+File: ./figures/part2_7.jpg Graphic file (type jpg)
+
+<use ./figures/part2_7.jpg>
+Package pdftex.def Info: ./figures/part2_7.jpg used on input line 251.
+(pdftex.def)             Requested size: 113.8126pt x 99.58691pt.
+
+<./figures/aver2.jpg, id=144, 287.8755pt x 343.2825pt>
+File: ./figures/aver2.jpg Graphic file (type jpg)
+
+<use ./figures/aver2.jpg>
+Package pdftex.def Info: ./figures/aver2.jpg used on input line 267.
+(pdftex.def)             Requested size: 287.87479pt x 343.28165pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.270 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.270 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/part2_5.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ec
+e269_project/Solution/figures/part2_7.jpg>]
+<./figures/eigenface1b.jpg, id=154, 1204.5pt x 903.375pt>
+File: ./figures/eigenface1b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface1b.jpg>
+Package pdftex.def Info: ./figures/eigenface1b.jpg used on input line 275.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 275--276
+ [][] 
+ []
+
+<./figures/eigenface2b.jpg, id=155, 1204.5pt x 903.375pt>
+File: ./figures/eigenface2b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface2b.jpg>
+Package pdftex.def Info: ./figures/eigenface2b.jpg used on input line 279.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 279--280
+ [][] 
+ []
+
+<./figures/eigenface3b.jpg, id=156, 1204.5pt x 903.375pt>
+File: ./figures/eigenface3b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface3b.jpg>
+Package pdftex.def Info: ./figures/eigenface3b.jpg used on input line 283.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 283--284
+ [][] 
+ []
+
+<./figures/eigenface4b.jpg, id=157, 1204.5pt x 903.375pt>
+File: ./figures/eigenface4b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface4b.jpg>
+Package pdftex.def Info: ./figures/eigenface4b.jpg used on input line 287.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 287--288
+ [][] 
+ []
+
+<./figures/eigenface5b.jpg, id=158, 1204.5pt x 903.375pt>
+File: ./figures/eigenface5b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface5b.jpg>
+Package pdftex.def Info: ./figures/eigenface5b.jpg used on input line 291.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 291--292
+ [][] 
+ []
+
+<./figures/eigenface6b.jpg, id=159, 1204.5pt x 903.375pt>
+File: ./figures/eigenface6b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface6b.jpg>
+Package pdftex.def Info: ./figures/eigenface6b.jpg used on input line 295.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 295--296
+ [][] 
+ []
+
+<./figures/eigenface7b.jpg, id=160, 1204.5pt x 903.375pt>
+File: ./figures/eigenface7b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface7b.jpg>
+Package pdftex.def Info: ./figures/eigenface7b.jpg used on input line 299.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+<./figures/eigenface8b.jpg, id=161, 1204.5pt x 903.375pt>
+File: ./figures/eigenface8b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface8b.jpg>
+Package pdftex.def Info: ./figures/eigenface8b.jpg used on input line 303.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 303--304
+ [][] 
+ []
+
+<./figures/eigenface9b.jpg, id=162, 1204.5pt x 903.375pt>
+File: ./figures/eigenface9b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface9b.jpg>
+Package pdftex.def Info: ./figures/eigenface9b.jpg used on input line 308.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 308--309
+ [][] 
+ []
+
+<./figures/eigenface10b.jpg, id=163, 1204.5pt x 903.375pt>
+File: ./figures/eigenface10b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface10b.jpg>
+Package pdftex.def Info: ./figures/eigenface10b.jpg used on input line 312.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 312--313
+ [][] 
+ []
+
+<./figures/eigenface11b.jpg, id=164, 1204.5pt x 903.375pt>
+File: ./figures/eigenface11b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface11b.jpg>
+Package pdftex.def Info: ./figures/eigenface11b.jpg used on input line 316.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 316--317
+ [][] 
+ []
+
+<./figures/eigenface12b.jpg, id=165, 1204.5pt x 903.375pt>
+File: ./figures/eigenface12b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface12b.jpg>
+Package pdftex.def Info: ./figures/eigenface12b.jpg used on input line 320.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 320--321
+ [][] 
+ []
+
+<./figures/eigenface13b.jpg, id=166, 1204.5pt x 903.375pt>
+File: ./figures/eigenface13b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface13b.jpg>
+Package pdftex.def Info: ./figures/eigenface13b.jpg used on input line 325.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 325--326
+ [][] 
+ []
+
+<./figures/eigenface14b.jpg, id=167, 1204.5pt x 903.375pt>
+File: ./figures/eigenface14b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface14b.jpg>
+Package pdftex.def Info: ./figures/eigenface14b.jpg used on input line 329.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 329--330
+ [][] 
+ []
+
+<./figures/eigenface15b.jpg, id=168, 1204.5pt x 903.375pt>
+File: ./figures/eigenface15b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface15b.jpg>
+Package pdftex.def Info: ./figures/eigenface15b.jpg used on input line 333.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 333--334
+ [][] 
+ []
+
+<./figures/eigenface16b.jpg, id=169, 1204.5pt x 903.375pt>
+File: ./figures/eigenface16b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface16b.jpg>
+Package pdftex.def Info: ./figures/eigenface16b.jpg used on input line 337.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 337--338
+ [][] 
+ []
+
+<./figures/eigenface17b.jpg, id=170, 1204.5pt x 903.375pt>
+File: ./figures/eigenface17b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface17b.jpg>
+Package pdftex.def Info: ./figures/eigenface17b.jpg used on input line 341.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 341--342
+ [][] 
+ []
+
+<./figures/eigenface18b.jpg, id=171, 1204.5pt x 903.375pt>
+File: ./figures/eigenface18b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface18b.jpg>
+Package pdftex.def Info: ./figures/eigenface18b.jpg used on input line 346.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 346--347
+ [][] 
+ []
+
+<./figures/eigenface19b.jpg, id=172, 1204.5pt x 903.375pt>
+File: ./figures/eigenface19b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface19b.jpg>
+Package pdftex.def Info: ./figures/eigenface19b.jpg used on input line 350.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 350--351
+ [][] 
+ []
+
+<./figures/eigenface20b.jpg, id=173, 1204.5pt x 903.375pt>
+File: ./figures/eigenface20b.jpg Graphic file (type jpg)
+
+<use ./figures/eigenface20b.jpg>
+Package pdftex.def Info: ./figures/eigenface20b.jpg used on input line 354.
+(pdftex.def)             Requested size: 113.80379pt x 88.19243pt.
+
+Overfull \hbox (22.75636pt too wide) in paragraph at lines 354--355
+ [][] 
+ []
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.360 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.360 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/aver2.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece2
+69_project/Solution/figures/eigenface1b.jpg> <C:/Users/Administrator/Desktop/fa
+ll quarter/ECE269/ece269_project/Solution/figures/eigenface2b.jpg> <C:/Users/Ad
+ministrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenfa
+ce3b.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/So
+lution/figures/eigenface4b.jpg> <C:/Users/Administrator/Desktop/fall quarter/EC
+E269/ece269_project/Solution/figures/eigenface5b.jpg> <C:/Users/Administrator/D
+esktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface6b.jpg> <C:
+/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figure
+s/eigenface7b.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_p
+roject/Solution/figures/eigenface8b.jpg> <C:/Users/Administrator/Desktop/fall q
+uarter/ECE269/ece269_project/Solution/figures/eigenface9b.jpg> <C:/Users/Admini
+strator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface10
+b.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/eigenface11b.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE2
+69/ece269_project/Solution/figures/eigenface12b.jpg> <C:/Users/Administrator/De
+sktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface13b.jpg> <C:
+/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figure
+s/eigenface14b.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_
+project/Solution/figures/eigenface15b.jpg> <C:/Users/Administrator/Desktop/fall
+ quarter/ECE269/ece269_project/Solution/figures/eigenface16b.jpg> <C:/Users/Adm
+inistrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenfac
+e17b.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/So
+lution/figures/eigenface18b.jpg> <C:/Users/Administrator/Desktop/fall quarter/E
+CE269/ece269_project/Solution/figures/eigenface19b.jpg> <C:/Users/Administrator
+/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/eigenface20b.jpg>]
+<./figures/13b.jpg, id=181, 162.6075pt x 193.72375pt>
+File: ./figures/13b.jpg Graphic file (type jpg)
+ <use ./figures/13b.jpg>
+Package pdftex.def Info: ./figures/13b.jpg used on input line 366.
+(pdftex.def)             Requested size: 113.81454pt x 99.58409pt.
+
+<./figures/face13b.jpg, id=182, 291.489pt x 343.2825pt>
+File: ./figures/face13b.jpg Graphic file (type jpg)
+
+<use ./figures/face13b.jpg>
+Package pdftex.def Info: ./figures/face13b.jpg used on input line 371.
+(pdftex.def)             Requested size: 113.80923pt x 99.5808pt.
+
+<./figures/part3_result.jpg, id=183, 432.4155pt x 379.4175pt>
+File: ./figures/part3_result.jpg Graphic file (type jpg)
+
+<use ./figures/part3_result.jpg>
+Package pdftex.def Info: ./figures/part3_result.jpg used on input line 379.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+
+Overfull \hbox (38.33835pt too wide) in paragraph at lines 383--384
+[]\T1/ppl/m/n/10.95 From fig-ure []12[], I find when the num-ber is 24, the mea
+n squared er-ror is the s-mall-est(978.8).However,
+ []
+
+<./figures/part3_small.jpg, id=186, 202.356pt x 240.9pt>
+File: ./figures/part3_small.jpg Graphic file (type jpg)
+
+<use ./figures/part3_small.jpg>
+Package pdftex.def Info: ./figures/part3_small.jpg used on input line 390.
+(pdftex.def)             Requested size: 113.8126pt x 99.58199pt.
+
+<./figures/part3_large.jpg, id=187, 198.14024pt x 237.88875pt>
+File: ./figures/part3_large.jpg Graphic file (type jpg)
+
+<use ./figures/part3_large.jpg>
+Package pdftex.def Info: ./figures/part3_large.jpg used on input line 395.
+(pdftex.def)             Requested size: 113.81485pt x 99.58589pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.400 \section
+              {part(d)}pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.400 \section
+              {part(d)}pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.400 \section
+              {part(d)}pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.400 \section
+              {part(d)}pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.400 \section
+              {part(d)} <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece
+269_project/Solution/figures/13b.jpg> <C:/Users/Administrator/Desktop/fall quar
+ter/ECE269/ece269_project/Solution/figures/face13b.jpg> <C:/Users/Administrator
+/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/part3_result.jpg> 
+<C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fig
+ures/part3_small.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece26
+9_project/Solution/figures/part3_large.jpg>]
+<./figures/part4_result.jpg, id=207, 432.4155pt x 379.4175pt>
+File: ./figures/part4_result.jpg Graphic file (type jpg)
+
+<use ./figures/part4_result.jpg>
+Package pdftex.def Info: ./figures/part4_result.jpg used on input line 407.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+
+<./figures/198a.jpg, id=209, 162.6075pt x 193.72375pt>
+File: ./figures/198a.jpg Graphic file (type jpg)
+
+<use ./figures/198a.jpg>
+Package pdftex.def Info: ./figures/198a.jpg used on input line 416.
+(pdftex.def)             Requested size: 113.81454pt x 99.58409pt.
+
+<./figures/part4_2.jpg, id=210, 210.7875pt x 249.93375pt>
+File: ./figures/part4_2.jpg Graphic file (type jpg)
+
+<use ./figures/part4_2.jpg>
+Package pdftex.def Info: ./figures/part4_2.jpg used on input line 421.
+(pdftex.def)             Requested size: 113.8139pt x 99.58273pt.
+
+<./figures/part4_20.png, id=211, 195.73125pt x 232.4685pt>
+File: ./figures/part4_20.png Graphic file (type png)
+
+<use ./figures/part4_20.png>
+Package pdftex.def Info: ./figures/part4_20.png used on input line 426.
+(pdftex.def)             Requested size: 113.81091pt x 99.58705pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.432 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.432 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.432 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.432 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/part4_result.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE2
+69/ece269_project/Solution/figures/198a.jpg> <C:/Users/Administrator/Desktop/fa
+ll quarter/ECE269/ece269_project/Solution/figures/part4_2.jpg> <C:/Users/Admini
+strator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/part4_20.pn
+g>] <./figures/car1.jpg, id=228, 180.675pt x 216.20775pt>
+File: ./figures/car1.jpg Graphic file (type jpg)
+
+<use ./figures/car1.jpg>
+Package pdftex.def Info: ./figures/car1.jpg used on input line 440.
+(pdftex.def)             Requested size: 180.67455pt x 216.20721pt.
+
+<./figures/part5_car.jpg, id=229, 187.902pt x 221.628pt>
+File: ./figures/part5_car.jpg Graphic file (type jpg)
+
+<use ./figures/part5_car.jpg>
+Package pdftex.def Info: ./figures/part5_car.jpg used on input line 447.
+(pdftex.def)             Requested size: 187.90154pt x 221.62746pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.453 I
+       n order to examine whether this conclusion is true or not, I use anot...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.453 I
+       n order to examine whether this conclusion is true or not, I use anot...
+ <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fi
+gures/car1.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_proj
+ect/Solution/figures/part5_car.jpg>]
+<./figures/building1.jpg, id=241, 207.77625pt x 248.72925pt>
+File: ./figures/building1.jpg Graphic file (type jpg)
+
+<use ./figures/building1.jpg>
+Package pdftex.def Info: ./figures/building1.jpg used on input line 456.
+(pdftex.def)             Requested size: 207.77573pt x 248.72864pt.
+
+<./figures/part5_building.jpg, id=242, 192.11775pt x 226.446pt>
+File: ./figures/part5_building.jpg Graphic file (type jpg)
+
+<use ./figures/part5_building.jpg>
+Package pdftex.def Info: ./figures/part5_building.jpg used on input line 462.
+(pdftex.def)             Requested size: 192.11728pt x 226.44543pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.474 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.474 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/building1.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/
+ece269_project/Solution/figures/part5_building.jpg>]
+<./figures/part6_sum.jpg, id=253, 432.4155pt x 379.4175pt>
+File: ./figures/part6_sum.jpg Graphic file (type jpg)
+
+<use ./figures/part6_sum.jpg>
+Package pdftex.def Info: ./figures/part6_sum.jpg used on input line 483.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+
+<./figures/part6_5.jpg, id=254, 288.47775pt x 344.487pt>
+File: ./figures/part6_5.jpg Graphic file (type jpg)
+
+<use ./figures/part6_5.jpg>
+Package pdftex.def Info: ./figures/part6_5.jpg used on input line 491.
+(pdftex.def)             Requested size: 113.80879pt x 99.58328pt.
+
+<./figures/part6_10.jpg, id=255, 287.8755pt x 344.487pt>
+File: ./figures/part6_10.jpg Graphic file (type jpg)
+
+<use ./figures/part6_10.jpg>
+Package pdftex.def Info: ./figures/part6_10.jpg used on input line 496.
+(pdftex.def)             Requested size: 113.81279pt x 99.58328pt.
+
+<./figures/part6_15.jpg, id=256, 287.27325pt x 344.487pt>
+File: ./figures/part6_15.jpg Graphic file (type jpg)
+
+<use ./figures/part6_15.jpg>
+Package pdftex.def Info: ./figures/part6_15.jpg used on input line 501.
+(pdftex.def)             Requested size: 113.8114pt x 99.58328pt.
+
+<./figures/part6_20.jpg, id=257, 291.489pt x 346.896pt>
+File: ./figures/part6_20.jpg Graphic file (type jpg)
+
+<use ./figures/part6_20.jpg>
+Package pdftex.def Info: ./figures/part6_20.jpg used on input line 509.
+(pdftex.def)             Requested size: 113.80923pt x 99.58096pt.
+
+<./figures/part6_25.jpg, id=258, 290.88675pt x 344.487pt>
+File: ./figures/part6_25.jpg Graphic file (type jpg)
+
+<use ./figures/part6_25.jpg>
+Package pdftex.def Info: ./figures/part6_25.jpg used on input line 514.
+(pdftex.def)             Requested size: 113.80933pt x 99.58328pt.
+
+<./figures/part6_30.jpg, id=259, 287.8755pt x 343.2825pt>
+File: ./figures/part6_30.jpg Graphic file (type jpg)
+
+<use ./figures/part6_30.jpg>
+Package pdftex.def Info: ./figures/part6_30.jpg used on input line 519.
+(pdftex.def)             Requested size: 113.81279pt x 99.5808pt.
+
+<./figures/part6_35.jpg, id=260, 291.489pt x 345.08925pt>
+File: ./figures/part6_35.jpg Graphic file (type jpg)
+
+<use ./figures/part6_35.jpg>
+Package pdftex.def Info: ./figures/part6_35.jpg used on input line 527.
+(pdftex.def)             Requested size: 113.80923pt x 99.5836pt.
+
+<./figures/part6_40.jpg, id=261, 290.2845pt x 342.078pt>
+File: ./figures/part6_40.jpg Graphic file (type jpg)
+
+<use ./figures/part6_40.jpg>
+Package pdftex.def Info: ./figures/part6_40.jpg used on input line 532.
+(pdftex.def)             Requested size: 113.80846pt x 99.58632pt.
+
+<./figures/part6_45.jpg, id=262, 292.09125pt x 344.487pt>
+File: ./figures/part6_45.jpg Graphic file (type jpg)
+
+<use ./figures/part6_45.jpg>
+Package pdftex.def Info: ./figures/part6_45.jpg used on input line 537.
+(pdftex.def)             Requested size: 113.8126pt x 99.58328pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.23
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.540 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.540 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.540 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.540 \end{figure}
+                   <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_p
+roject/Solution/figures/part6_sum.jpg> <C:/Users/Administrator/Desktop/fall qua
+rter/ECE269/ece269_project/Solution/figures/part6_5.jpg> <C:/Users/Administrato
+r/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/part6_10.jpg> <C:
+/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figure
+s/part6_15.jpg>] <./figures/part6_50.jpg, id=277, 290.2845pt x 343.88475pt>
+File: ./figures/part6_50.jpg Graphic file (type jpg)
+
+<use ./figures/part6_50.jpg>
+Package pdftex.def Info: ./figures/part6_50.jpg used on input line 545.
+(pdftex.def)             Requested size: 113.80846pt x 99.58234pt.
+
+<./figures/part6_55.jpg, id=278, 294.50024pt x 345.08925pt>
+File: ./figures/part6_55.jpg Graphic file (type jpg)
+
+<use ./figures/part6_55.jpg>
+Package pdftex.def Info: ./figures/part6_55.jpg used on input line 550.
+(pdftex.def)             Requested size: 113.81209pt x 99.5836pt.
+
+<./figures/part6_60.jpg, id=279, 290.2845pt x 343.2825pt>
+File: ./figures/part6_60.jpg Graphic file (type jpg)
+
+<use ./figures/part6_60.jpg>
+Package pdftex.def Info: ./figures/part6_60.jpg used on input line 555.
+(pdftex.def)             Requested size: 113.80846pt x 99.5808pt.
+
+<./figures/part6_class.jpg, id=281, 432.4155pt x 379.4175pt>
+File: ./figures/part6_class.jpg Graphic file (type jpg)
+
+<use ./figures/part6_class.jpg>
+Package pdftex.def Info: ./figures/part6_class.jpg used on input line 564.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+33}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+34}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+35}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.567 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/part6_20.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/e
+ce269_project/Solution/figures/part6_25.jpg> <C:/Users/Administrator/Desktop/fa
+ll quarter/ECE269/ece269_project/Solution/figures/part6_30.jpg> <C:/Users/Admin
+istrator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/part6_35.j
+pg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution
+/figures/part6_40.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece2
+69_project/Solution/figures/part6_45.jpg> <C:/Users/Administrator/Desktop/fall 
+quarter/ECE269/ece269_project/Solution/figures/part6_50.jpg> <C:/Users/Administ
+rator/Desktop/fall quarter/ECE269/ece269_project/Solution/figures/part6_55.jpg>
+ <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solution/fi
+gures/part6_60.jpg>]
+<./figures/part6_sum2.png, id=306, 432.4155pt x 379.4175pt>
+File: ./figures/part6_sum2.png Graphic file (type png)
+
+<use ./figures/part6_sum2.png>
+Package pdftex.def Info: ./figures/part6_sum2.png used on input line 575.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+
+<./figures/part6_class2.png, id=307, 432.4155pt x 379.4175pt>
+File: ./figures/part6_class2.png Graphic file (type png)
+
+<use ./figures/part6_class2.png>
+Package pdftex.def Info: ./figures/part6_class2.png used on input line 580.
+(pdftex.def)             Requested size: 432.41444pt x 379.41656pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.36
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.583 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+37}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.583 
+       <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_project/Solut
+ion/figures/part6_class.jpg> <C:/Users/Administrator/Desktop/fall quarter/ECE26
+9/ece269_project/Solution/figures/part6_sum2.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 588.
+
+(G:\LaTex\CTEX\MiKTeX\tex\latex\psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\ec
+e269_project.m" [13pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.38}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.35 for 
+         i=1:m <C:/Users/Administrator/Desktop/fall quarter/ECE269/ece269_proje
+ct/Solution/figures/part6_class2.png>] [14] [15])
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\ec
+e_269_project_A.m")
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\ec
+e_269_project_B.m") 
+AED: lastpage setting LastPage
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
+
+("C:\Users\Administrator\Desktop\fall quarter\ECE269\ece269_project\Solution\mc
+mpaper - 副本.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
+Package rerunfilecheck Info: File `mcmpaper*-*副本.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12194 strings out of 495354
+ 169976 string characters out of 3183523
+ 647046 words of memory out of 3000000
+ 14691 multiletter control sequences out of 15000+200000
+ 31869 words of font info for 82 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 41i,12n,45p,1140b,2247s stack positions out of 5000i,500n,10000p,200000b,50000s
+{G:/LaTex/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<G:/LaTex/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><G:/LaTex/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><G:/LaTex/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><G:/LaTex/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><G:/La
+Tex/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><G:/LaTex/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><G:/LaTex/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><G:/LaTex/CTEX/MiKTeX/fonts/type1/urw/courier/ucrr8a.p
+fb><G:/LaTex/CTEX/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><G:/LaTex/CTEX/MiK
+TeX/fonts/type1/urw/palatino/uplr8a.pfb><G:/LaTex/CTEX/MiKTeX/fonts/type1/urw/p
+alatino/uplri8a.pfb>
+Output written on "mcmpaper - 副本.pdf" (16 pages, 5437331 bytes).
+PDF statistics:
+ 644 PDF objects out of 1000 (max. 8388607)
+ 282 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
+
