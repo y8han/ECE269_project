@@ -11,4 +11,3 @@ Project of human face recognition
 * Matlab code files
 * Latex codes and all the needed figures 
 * a report
-* training image set
